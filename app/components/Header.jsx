@@ -25,16 +25,16 @@ const Header = () => {
           <a
             href="#contact"
             className="px-10 py-3 border rounded-full border-white 
-         bg-black text-white flex items-center gap-2"
+         bg-black text-white flex items-center gap-2 dark:bg-transparent"
           >
             Contact Me
             <Image src={assets.right_arrow_white} alt="" className="w-4" />
           </a>
           <a
             href="/Lucas-Hawthorne's-Tech-Resume.pdf"
-            download
+            target="_blank"
             className="px-10 py-3 border rounded-full border-gray-500 flex 
-          items-center gap-2"
+          items-center gap-2 dark:text-black dark:bg-white"
           >
             My Resume{" "}
             <Image src={assets.download_icon} alt="" className="w-4" />

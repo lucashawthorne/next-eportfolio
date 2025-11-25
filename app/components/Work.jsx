@@ -5,12 +5,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 
-const Work = () => {
+const Work = (darkMode) => {
   return (
     <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center mb-2 text-lg">My Portfolio</h4>
       <h2 className="text-center text-5xl">My Latest Work</h2>
-      <p className="text-center max-w-2xl mx-auto mt-5 mb-12">
+      <p className="text-center max-w-lg mx-auto mt-5 mb-12">
         Explore my latest collection of projects showcasing my expertise in
         frontend development.
       </p>
@@ -101,11 +101,11 @@ const Work = () => {
       <a
         href=""
         className="w-max flex items-center justify-center gap-2 text-gray-700
-        border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20
-        hover:bg-lightHover duration-500"
+        border-[1px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20
+        hover:bg-lightHover duration-500 dark:text-white dark:hover:bg-darkHover"
       >
         Show More{" "}
-        <Image src={assets.right_arrow_bold} alt="Right arrow" className="w-4" />
+        <Image src={darkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold} alt="Right arrow" className="w-4" />
       </a>
     </div>
   );
