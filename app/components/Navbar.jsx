@@ -41,19 +41,19 @@ const Navbar = ({darkMode, setDarkMode}) => {
         </a>
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 
         py-3 ${isScroll ? "" : "bg-gray-200 shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"}`}>
-          <li>
+          <li className="link__hover">
             <a href="#top">Home</a>
           </li>
-          <li>
+          <li className="link__hover">
             <a href="#about">About Me</a>
           </li>
           {/* <li>
             <a href="#services">Services</a>
           </li> */}
-          <li>
+          <li className="link__hover">
             <a href="#work">My Work</a>
           </li>
-          <li>
+          <li className="link__hover">
             <a href="#contact">Contact Me</a>
           </li>
         </ul>

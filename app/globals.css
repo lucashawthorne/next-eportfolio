@@ -9,3 +9,34 @@
 p {
   font-size: 18px;
 }
+
+@layer components {
+  .link__hover {
+    @apply relative;
+  }
+
+  .link__hover::after {
+    content: "";
+    @apply absolute h-[3px] bg-[#daa520] w-0 bottom-[-1px] right-0 transition-all duration-300;
+  }
+
+  .link__hover:hover::after {
+    @apply w-full left-0;
+  }
+
+  .footer__logo--anchor {
+    @apply relative inline-block;
+  }
+
+  .footer__logo--popper {
+    @apply absolute right-0 top-9 font-bold opacity-0 transition-all duration-300 flex items-center gap-1 text-white;
+    /* Tailwind can't do translateX on hover without a wrapper, so we use plain CSS: */
+    transform: translateX(0);
+  }
+
+  .footer__logo--anchor:hover .footer__logo--popper {
+    transform: translateX(40px);
+    opacity: 1;
+  }
+
+}
