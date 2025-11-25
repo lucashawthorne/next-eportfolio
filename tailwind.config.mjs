@@ -1,4 +1,4 @@
-import { Roboto_Slab } from 'next/font/google';
+import { Roboto } from 'next/font/google';
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -15,7 +15,7 @@ export default {
         darkTheme: '#11001F',
       },
       fontFamily: {
-        Roboto_Slab: ["Roboto_Slab", "sans-serif"],
+        Roboto: ["Roboto", "sans-serif"],
         Ovo: ["Ovo", "serif"]
       },
       boxShadow: {
