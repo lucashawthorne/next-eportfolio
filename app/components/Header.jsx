@@ -14,7 +14,7 @@ const Header = () => {
           Hey there, I'm Lucas
           <Image src={assets.hand_icon} alt="" className="w-6" />
         </h3>
-        <h1 className="text-3xl sm:text-6xl lg:text-[66px]">
+        <h1 className="text-3xl sm:text-6xl lg:text-[66px] max-w-[36rem]">
           Frontend Developer based in the U.S.
         </h1>
         <p className="max-w-[28rem] mx-auto">
