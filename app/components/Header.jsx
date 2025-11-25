@@ -17,8 +17,8 @@ const Header = () => {
         <h1 className="text-3xl sm:text-6xl lg:text-[66px]">
           Frontend Developer based in the U.S.
         </h1>
-        <p className="max-w-2xl mx-auto">
-          I'm a frontend software engineer with a strong passion for <br />
+        <p className="max-w-[28rem] mx-auto">
+          I'm a frontend software engineer with a strong passion for
           building stellar web applications that leave viewers amazed.
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
