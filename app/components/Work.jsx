@@ -4,18 +4,49 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { motion } from "motion/react";
 
 const Work = (darkMode) => {
   return (
-    <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
-      <h4 className="text-center mb-2 text-lg">My Portfolio</h4>
-      <h2 className="text-center text-5xl">My Latest Work</h2>
-      <p className="text-center max-w-lg mx-auto mt-5 mb-12">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+      id="work"
+      className="w-full px-[12%] py-10 scroll-mt-20"
+    >
+      <motion.h4
+        initial={{ y: 20, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+        className="text-center mb-2 text-lg"
+      >
+        My Portfolio
+      </motion.h4>
+      <motion.h2
+        initial={{ y: 20, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.5 }}
+        className="text-center text-5xl"
+      >
+        My Latest Work
+      </motion.h2>
+      <motion.p
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.7 }}
+        className="text-center max-w-lg mx-auto mt-5 mb-12"
+      >
         Explore my latest collection of projects showcasing my expertise in
         frontend development.
-      </p>
+      </motion.p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 my-16">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.9 }}
+        className="grid grid-cols-1 md:grid-cols-2 gap-10 my-16"
+      >
         {projects.map((project, index) => (
           <div
             key={index}
@@ -62,13 +93,10 @@ const Work = (darkMode) => {
               <h4 className="text-xl mt-2">{project.subtitle}</h4>
 
               {/* Mobile (<768px) — visible always */}
-              <p className="text-lg mt-4 md:hidden">
-                {project.description}
-              </p>
+              <p className="text-lg mt-4 md:hidden">{project.description}</p>
 
               {/* Tablet (768–1023px) — HIDDEN */}
-              <p className="text-lg mt-4 hidden md:block lg:hidden">
-              </p>
+              <p className="text-lg mt-4 hidden md:block lg:hidden"></p>
 
               {/* Desktop (≥1024px) — visible on hover */}
               <p className="text-lg mt-4 hidden lg:block">
@@ -97,7 +125,7 @@ const Work = (darkMode) => {
             </div>
           </div>
         ))}
-      </div>
+      </motion.div>
       <a
         href=""
         className="w-max flex items-center justify-center gap-2 text-gray-700
@@ -105,9 +133,15 @@ const Work = (darkMode) => {
         hover:bg-lightHover duration-500 dark:text-white dark:hover:bg-darkHover"
       >
         Show More{" "}
-        <Image src={darkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold} alt="Right arrow" className="w-4" />
+        <Image
+          src={
+            darkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold
+          }
+          alt="Right arrow"
+          className="w-4"
+        />
       </a>
-    </div>
+    </motion.div>
   );
 };
 
