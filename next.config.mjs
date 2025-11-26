@@ -4,8 +4,8 @@ import { join } from "path";
 const nextConfig = {
   output: "export",
   images: { unoptimized: true },
-  basePath: "/Eportfolio",
-  assetPrefix: "/Eportfolio/",
+  basePath: "/eportfolio",
+  assetPrefix: "/eportfolio/",
   distDir: "out",
 };
 
