@@ -1,1 +1,1043 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[974],{4692:(A,e,t)=>{Promise.resolve().then(t.bind(t,7787))},7787:(A,e,t)=>{"use strict";t.r(e),t.d(e,{default:()=>U});var a=t(5155),i=t(2115);let r={About_Picture:{src:"/Eportfolio//_next/static/media/About-Picture.7361e960.png",height:1887,width:1106,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAMAAAAGL8UJAAAAG1BMVEVISEhoaGhXV1ddXV1QUFArKyt2dnY4ODiDg4N6e3DrAAAACXBIWXMAACE4AAAhOAFFljFgAAAAKElEQVR4nAXBhwEAMAjDMGcA/f/iSkSygTjcALR35q0j3lZhGQap9AMK1wB6LNkE+gAAAABJRU5ErkJggg==",blurWidth:5,blurHeight:8},code_icon:{src:"/Eportfolio//_next/static/media/code-icon.04be3677.png",height:46,width:48,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAG1BMVEVMaXFKUmxIT2xIT2pJUGtITmNIUGpHUGpJUGriaGcvAAAACXRSTlMAnihRcAyUfGNswdiIAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAMElEQVR4nBXKxw3AQBDEMM4m99+xcT+BEGnTuCGFUNnlPj2VfT5tgn3LiwrfoUefHxD0AHs9nOs7AAAAAElFTkSuQmCC",blurWidth:8,blurHeight:8},code_icon_dark:{src:"/Eportfolio//_next/static/media/code-icon-dark.89659bbb.png",height:46,width:48,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAHlBMVEVMaXH////////////////////////////////////Z6AnKAAAACnRSTlMAnlFwDCGUNnxjyoWNsQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAADBJREFUeJwVysENwDAIBDAfUJL9J67ytUxKF7bJh/Blhr2qT4acLr2YV+IV7pNqtX4ScACIPx2CrAAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:8},edu_icon:{src:"/Eportfolio//_next/static/media/edu-icon.6a867886.png",height:50,width:58,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAMAAAACh/xsAAAAJFBMVEVIT2pIUGpMaXFGUGpHT2pIUW0wMFhHT2pHT2pGTmlIUGpLS2m9NA33AAAADHRSTlN2WAA3hiQDSpxh1xGc8IJ9AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAMElEQVR4nAXBhwHAMAzDMEre6f//FsAOctoU1HcEm+32PHyr2RRWxJWEKbspHAkp/xwdANByJ5cnAAAAAElFTkSuQmCC",blurWidth:8,blurHeight:7},edu_icon_dark:{src:"/Eportfolio//_next/static/media/edu-icon-dark.1e21ba21.png",height:50,width:58,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAMAAAACh/xsAAAAKlBMVEX///9MaXH////////////////////////////////////////////////nuZ/FAAAADnRSTlN2AIZDAzBZI1NhldcRqkDl7BYAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAySURBVHicBcGJAcAgDMQwX/4A3X/dSkiJeYiEfotzLBSai/YrP1Zo0rdrEC0FjdLASj8dAADmrHrX8QAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:7},project_icon:{src:"/Eportfolio//_next/static/media/project-icon.4bb89995.png",height:48,width:52,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAMAAAACh/xsAAAAHlBMVEVJUWtIUGpMaXFJVW1JUmxIUGlIUGpIUGlIUWpIUGpQKBwTAAAACnRSTlOZdAAEqY1+Pq3gfs0GbQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAC9JREFUeJwdybkRACAQA7G176X/hhlQKsICOSi2ainStsPJ6Za6DwwzDOB4BakvLxYgAKpf+w/8AAAAAElFTkSuQmCC",blurWidth:8,blurHeight:7},project_icon_dark:{src:"/Eportfolio//_next/static/media/project-icon-dark.05a168aa.png",height:48,width:52,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAMAAAACh/xsAAAAHlBMVEX///////9MaXH////////////////////+/v7+/v7D7xzeAAAACnRSTlOXdACDBD6oreBx4eXgIAAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAC9JREFUeJwVybkRACAQA7G1fQ/03zCDUlEWyEVYWMLYdnk5iZQcaLppwPULRt+dBxI7AJokKXA+AAAAAElFTkSuQmCC",blurWidth:8,blurHeight:7},vscode:{src:"/Eportfolio//_next/static/media/vscode.73ffb0c6.png",height:67,width:67,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAV1BMVEVMaXETfL0Terwvs/UUhdAtqu8eh84JeLgtqe8PcLMUhdIWi9sQebsQe74NXq8Pb64WkNMObasurespm+kVe8wyt/czuPUtpvQWj9QXf8wXgL4Ressws/4uV/zQAAAAHHRSTlMAVdIb/vQnBeE05frm9xvKyYrCprzZNtaJlpfW8zzv8gAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAENJREFUeJwdykkWgCAMBNEGAyFMCipO3P+cPljVXxTAjKxrG7Wa+ontlphe46ACRVkGEvmJtYinx7g5f6FfABj52O0PVkkCea/jpBEAAAAASUVORK5CYII=",blurWidth:8,blurHeight:8},firebase:{src:"/Eportfolio//_next/static/media/firebase.de7e28f1.png",height:70,width:72,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAARVBMVEXqoS3+xjn9vCv6pxT8yz/8yz/70Ez+0EH7yj/6xj3+qxP/0kH6wDn9qxb9oRr1hxH5nA7/ow/0pBX7qBP8phX/2ET/mQ90JLYvAAAAFXRSTlMB/YOY4/se/Vqv+c3809D5rVQwQV+5w2btAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAPUlEQVR4nCXKSQ7AIAzAQLOEAN0Lyf+fWqH6ODK8ib/R01MKMLsfuQLRr2ARuH0XbcAZRHQDmqnaEmpe7wc+IwGzQfBw5AAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:8},figma:{src:"/Eportfolio//_next/static/media/figma.dc8b4aa1.png",height:92,width:92,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAM1BMVEVMaXH+b13xTBs0r/KdXfUXvv75YEr2cU0J0IL+cmIYypGkVv2hWf8etf8dzbDzUB/3Uy8Ddx4bAAAAEHRSTlMA9r3o98EWBsS99MLB0RrxjOAjNQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAADVJREFUeJwliUsSwCAMhTAaE+3H3v+0HZ8rGACi9wAIW2XI7Ctjk6tVl9ztca2crwKZh6D+AyJ3ANdKSvkqAAAAAElFTkSuQmCC",blurWidth:8,blurHeight:8},git:{src:"/Eportfolio//_next/static/media/git.90284f53.png",height:80,width:80,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAKlBMVEXqUj3/VTXqRzH0VkBMaXHzSjLyOR/wdmT5vLP2h3f/qlXsk4j5opf6sKZAiD8mAAAADHRSTlNEA0T3APjz/f75A0W11L9TAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAOElEQVR4nB3KQQ7AIAzEwN3EaaGE/3+3gttItjAhjD7WLGGhGvsRUtY7OuNiHqDqPslE5p1NBOYHJ+EBDegGAaoAAAAASUVORK5CYII=",blurWidth:8,blurHeight:8},right_arrow_white:{src:"/Eportfolio//_next/static/media/right-arrow-white.1f96697c.png",height:22,width:33,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAAJ1BMVEX///9MaXH////////////////////////////////////+/v7///+nZARiAAAADXRSTlMhAASzM57lysAVZgdoVEXAfwAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAACpJREFUeJwVyrcRACAQBLG995j+62VQLCSJCfGtXUG6u2c1ZnZ0G/6JQQ8LVgCItjqSngAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:5},logo:{src:"/Eportfolio//_next/static/media/logo.36c47c97.png",height:1114,width:1124,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAP1BMVEVMaXHuvDvxwkzlwGdnfLvguVLtz3XW1rvntjvHt4Rra2tNTU0TFh5wcHCIdUMMCwoYFRT///9BPjEVGyWXgERLoIVdAAAAFXRSTlMA7VFFDHMqB9sbLUjCK7n39BDJl50ApI3HAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANElEQVR4nGNggAMWbhZOZhCDS4CFiYOdgYGBl19YBMzgFOLhAzPYGAWZGMEirOxsrAi9DAAq6AEn5jfJ8QAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:8},mail_icon:{src:"/Eportfolio//_next/static/media/mail_icon.e6102686.png",height:47,width:64,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAMAAADJ2y/JAAAAGFBMVEV+fn59fX18fHx7e3t6enp7e3t8fHyFhYWRxpcbAAAAB3RSTlP86KSQecO0Q7FbLwAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAACtJREFUeJw1ybkNADAMA7GT5Gf/jQMX6QiQ0cLKULPrEhAnHNruw680Ep0HDowAhAtotyMAAAAASUVORK5CYII=",blurWidth:8,blurHeight:6},mail_icon_dark:{src:"/Eportfolio//_next/static/media/mail_icon_dark.fdb2cf1a.png",height:47,width:64,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAMAAADJ2y/JAAAAHlBMVEX////////////////////////////////////+/v56BqeyAAAACnRSTlP97KSQebTfw8S/WyM9qAAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAACxJREFUeJw1ycENACAMA7FL0lLYf2HEg58l0wtgGarBJSBOeBh7I/Qrg8TJBQr6AG2MpWurAAAAAElFTkSuQmCC",blurWidth:8,blurHeight:6},profile:{src:"/Eportfolio//_next/static/media/profile.d20edc09.png",height:1082,width:1080,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAgVBMVEUnICNxTUPm8/UxNUdsdoVrV1KCk4+ncFgeEhOWpKx6T0KgX0+NXESEfYbbrI26jmoPCw4WHDRnRUJnY3IzOmNgYWtFRlR1fn+Qrbmgvs3O4OWLoamwztmoiXJYgpR5m6q/m39DMCorJzukgHRJV2KpqqtcQDvJe2ifdFfTuqHMqp9erwnaAAAACXBIWXMAAAsTAAALEwEAmpwYAAAASElEQVR4nAXBBQKAIAAEsENAWrC72/8/0A2uqOO+iTuonKNqowiqBDI2zGCpJJpPBygdhdlPh21JhLneD8SvVkt/Q9gAGZ7kB4tfBB+8lSqpAAAAAElFTkSuQmCC",blurWidth:8,blurHeight:8},download_icon:{src:"/Eportfolio//_next/static/media/download-icon.18868f5d.png",height:44,width:44,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAHlBMVEVMaXEjIyMkJCQmJiYkJCQlJSUlJSUkJCQjIyMkJCQstXC9AAAACnRSTlMAoGINeFk2YZDCLhFReAAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAC9JREFUeJxVyrkRADAIxEAdj4H+G/aMibyRAgFkssz+8FN1HJyYCZwGCRrtJ0JPXA+KAHVJ2exBAAAAAElFTkSuQmCC",blurWidth:8,blurHeight:8},hand_icon:{src:"/Eportfolio//_next/static/media/hand-icon.daa29b90.png",height:57,width:56,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAWlBMVEVMaXHq1ZT1zqzswZ9oZ2jyyqbvxaHwyaf95sjwyaf20a5PVk5LU1r217bSqInvy6jwyaa3ooxUWV6lmYzy0LDpxaX427z627jZpHrmuZfUmnP/9Nj/0qz/7dAlHRGnAAAAG3RSTlMABho7MJyE0Pzh1BBG83e2aGBeFON4+qow94SuQ6OEAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAQElEQVR4nAXBBQKAMAwAsZu2M9wH//8mCRjrvAeYxjwvq8WEJFJ2gZCknTlCTJtqj9QhHapfwFfXur4DFC65H35MggKGDpSl3wAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:8},moon_icon:{src:"/Eportfolio//_next/static/media/moon_icon.929620b8.png",height:58,width:58,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAALVBMVEVMaXGQkJC9vb2UlJSampqRkZGPj4+enp6QkJCnp6eLi4uYmJiPj4+SkpKRkZEPqoNhAAAAD3RSTlMAsw1lRZOgHH0orDfabot57D7IAAAACXBIWXMAABYlAAAWJQFJUiTwAAAANUlEQVR4nB3KuREAMQjAQPGD7f7rvTkUbSC4MvzNEV+Emy1SR3RR2LmltIFHPHTfDqiUlOYDHEgA1VydhAkAAAAASUVORK5CYII=",blurWidth:8,blurHeight:8},sun_icon:{src:"/Eportfolio//_next/static/media/sun_icon.b58c3800.png",height:58,width:58,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAGFBMVEX///9MaXH////////////////////+/v7SDDtGAAAACHRSTlNZACgXODs9PwWeyTkAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAvSURBVHicTcuxDQAgDMRAO5/A/hsjCiQ6F2fUaRVJVRCzYCJTANX0CzOw82Ptux8Q1QB2yxTatgAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:8},arrow_icon:{src:"/Eportfolio//_next/static/media/arrow-icon.3e51d3e2.png",height:39,width:39,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAG1BMVEVFRUVMaXFGRkZCQkJFRUVFRUVERERFRUVHR0fgGYEKAAAACHRSTlM8AF4FZesNnH65azYAAAAJcEhZcwAAITgAACE4AUWWMWAAAAAySURBVHicHcbHEcAwEMQw8oK0/VfskfEC5LccgJugWnuD7aQIbWUkWClfJmW/7Nh6+AAk2ADqXU4BHQAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:8},arrow_icon_dark:{src:"/Eportfolio//_next/static/media/arrow-icon-dark.9f9fde66.png",height:39,width:39,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAG1BMVEX////////////////////////////+/v7///9JhYuvAAAACXRSTlMC/z5j6JxXKfKc0fDWAAAACXBIWXMAACE4AAAhOAFFljFgAAAALklEQVR4nB3IwQ0AMAzCQCBpm/0nrhw+Z6F411KSd2yxO2ewfMNTLhFIrESjlA8R1ABwn7Qh0QAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:8},menu_black:{src:"/Eportfolio//_next/static/media/menu-black.a8f2e51b.png",height:58,width:72,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAMAAADJ2y/JAAAAD1BMVEVMaXEeHh4eHh4eHh4iIiKAJCKPAAAABXRSTlMArYGdDr7Kb44AAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAaSURBVHicY2BmBANmBiTAwgQCyAwYYIIoBgAFjwAzvzBICQAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:6},menu_white:{src:"/Eportfolio//_next/static/media/menu-white.f55aa784.png",height:58,width:72,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAMAAADJ2y/JAAAAElBMVEVMaXH////////////////////7e1ULAAAABnRSTlMArYZ5nQ5WVD/eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAHElEQVR4nGNgYQQDFgYkwMrMxMTEjMyAASaIYgAGkgA81bFPxgAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:6},close_black:{src:"/Eportfolio//_next/static/media/close-black.9009bd8a.png",height:29,width:29,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAJFBMVEUAAAAfHx8eHh4eHh4fHx8fHx8dHR0eHh4eHh4aGhoeHh4eHh6BJ15VAAAADHRSTlMBWUOR6f4a4rITfyHa9nllAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAMUlEQVR4nE2KMQ4AIAjECqII/v+/5uLi1CYtwwDOxqbDioGsRLDMFqlUVW//P/b74gIacgC3lt35MgAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:8},close_white:{src:"/Eportfolio//_next/static/media/close-white.57398b0d.png",height:29,width:29,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAJ1BMVEX///////////////9MaXH///////////////////////////////+zNv0pAAAADXRSTlPmBEX+AFsajZeyE38hDpdUbQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAADZJREFUeJwVy0kSwDAIwDADJmv//95O7hIzjfDbdKUOFnblYUrYcA3CQ6WBg5uVMpg+x16vNz8lKgD+n+kPXAAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:8},web_icon:{src:"/Eportfolio//_next/static/media/web-icon.991b139d.png",height:96,width:96,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAIVBMVEX/Nov/N4v/OY/+N4r/Nov/lMD/RZP/ZKT/dq//d7D/d69njKjGAAAABHRSTlPwaeV7li0vjwAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAC9JREFUeJw9ikEKACAMwzpNN/X/DxYGmlMg0aQJCTJhCMouJNL7OFvWannpz6EmLia9APptrMSIAAAAAElFTkSuQmCC",blurWidth:8,blurHeight:8},mobile_icon:{src:"/Eportfolio//_next/static/media/mobile-icon.cb8cec69.png",height:96,width:96,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAJ1BMVEX/OIv/N4v/OZD/OY//e7L/OIz/NYr/PpD/9fn/k8D/pcv/xd3/tdMkB6s4AAAABXRSTlPvbvXl/nkVvwYAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAA1SURBVHicHcZBEsAgDAMxB7pOQvn/exnQSQqwITRwppnC+W+QnKuqLUFXfTdmtZEGV06Fnjgw4wE3IhT6MAAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:8},ui_icon:{src:"/Eportfolio//_next/static/media/ui-icon.87d9d95a.png",height:96,width:96,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAHlBMVEX/OIz/N4v+N4r/Z6b/Nov/kb//VZz/R5T/cq3/p8zbu+uWAAAABHRSTlPuaXv+VPvfGAAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAC1JREFUeJxjYGIBA0YGBggDRHOwsbOBGOysrKycUAYnKztEig0kBVfMyAAGjAAkqADs/jreBAAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:8},graphics_icon:{src:"/Eportfolio//_next/static/media/graphics-icon.275859ac.png",height:96,width:96,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAKlBMVEX/N4r/N4v/qc3/OZD/OZD+N4r/ncb/N4v/P5D/yuD/udb/2+r/5/H///889lQlAAAAB3RSTlPvaf715Xv+8CwH8AAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAADZJREFUeJwdyEESgDAIBMGFRGcB/f93LdPH1sURWtiGLejnLSRcM2UJsqv/4Z5MpAUGb4WO+AA8lAF4eb38jgAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:8}},l=[{title:"Skinstric AI - Virtual Internship",subtitle:"React, JavaScript, HTML, CSS",description:"Sleek AI facial analysis with camera capture and photo upload functionality.",image:"/work-1.png",github:"https://github.com/lucashawthorne/skinstric-ai-virtual-internship",demo:"https://skinstric-ai-virtual-internship.vercel.app/"},{title:"Ultraverse NFT Marketplace",subtitle:"React, JavaScript, HTML, CSS",description:"An incredible NFT Marketplace that displays a library of NFTs for sale through use of APIs.",image:"/work-2.png",github:"https://github.com/lucashawthorne/ultraverse-marketplace",demo:"https://lucashawthorne.github.io/ultraverse-marketplace/"},{title:"Netflix Clone",subtitle:"React, JavaScript, HTML, CSS",description:"A Netflix clone that features numerous arrays of current films based on different criteria.",image:"/work-3.png",github:"https://github.com/lucashawthorne/netflix-clone/",demo:"https://lucashawthorne.github.io/netflix-clone/"},{title:"Skinstric AI - Virtual Internship",subtitle:"React, JavaScript, HTML, CSS",description:"An comprehensive online library for numerous books, powered by React.",image:"/work-4.png",github:"https://github.com/lucashawthorne/react-online-library/",demo:"https://lucashawthorne.github.io/react-online-library/"}];r.web_icon,r.mobile_icon,r.ui_icon,r.graphics_icon;let s=[{icon:r.code_icon,iconDark:r.code_icon_dark,title:"Languages",description:"Next.js, Tailwind CSS, TypeScript, JavaScript, HTML, CSS"},{icon:r.edu_icon,iconDark:r.edu_icon_dark,title:"Education",description:"FES Institute Graduate"},{icon:r.project_icon,iconDark:r.project_icon_dark,title:"Projects",description:"Built more than 10 projects"}],n=[r.vscode,r.firebase,r.figma,r.git];var o=t(5239),c=t(273);let d=A=>{let{darkMode:e}=A;return(0,a.jsxs)(c.P.div,{initial:{opacity:0},whileInView:{opacity:1},transition:{duration:1},id:"about",className:"w-full px-[12%] py-10 scroll-mt-20",children:[(0,a.jsx)(c.P.h4,{initial:{y:20,opacity:0},whileInView:{y:0,opacity:1},transition:{duration:.5,delay:.3},className:"text-center mb-2 text-lg",children:"Introduction"}),(0,a.jsx)(c.P.h2,{initial:{y:20,opacity:0},whileInView:{y:0,opacity:1},transition:{duration:.5,delay:.5},className:"text-center text-5xl",children:"About Me"}),(0,a.jsxs)(c.P.div,{initial:{opacity:0},whileInView:{opacity:1},transition:{duration:.8},className:"flex w-full flex-col lg:flex-row items-center gap-20 my-20",children:[(0,a.jsx)(c.P.div,{initial:{scale:.9,opacity:0},whileInView:{scale:1,opacity:1},transition:{duration:.6},className:"w-64 sm:w-80 rounded-3xl max-w-none",children:(0,a.jsx)(o.default,{src:r.About_Picture,alt:"user",className:"w-full rounded-3xl"})}),(0,a.jsxs)(c.P.div,{initial:{opacity:0},whileInView:{opacity:1},transition:{duration:.6,delay:.8},className:"flex-1",children:[(0,a.jsx)("p",{className:"mb-10 max-w-2xl",children:"I'm an early-career frontend developer with a strong foundation in Next.js, Tailwind CSS, and TypeScript. I bring to the table fast learning, strong problem-solving, and a serious work ethic. I'm fully committed to cementing my career in tech and becoming a high-performing contributor on whichever team I join."}),(0,a.jsx)(c.P.ul,{initial:{opacity:0},whileInView:{opacity:1},transition:{duration:.8,delay:1},className:"grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl",children:s.map((A,t)=>{let{icon:i,iconDark:r,title:l,description:s}=A;return(0,a.jsxs)(c.P.li,{whileHover:{scale:1.05},className:"border-[1px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50",children:[(0,a.jsx)(o.default,{src:e?r:i,alt:l,className:"w-7 mt-3"}),(0,a.jsx)("h3",{className:"my-4 font-semibold text-gray-700 dark:text-white",children:l}),(0,a.jsx)("p",{className:"text-gray-600 text-sm dark:text-white/80",children:s})]},t)})}),(0,a.jsx)(c.P.h4,{initial:{y:20,opacity:0},whileInView:{y:0,opacity:1},transition:{duration:1.3,delay:.5},className:"my-6 text-gray-700 font-light text-xl dark:text-white/80",children:"Tools I Use:"}),(0,a.jsx)(c.P.ul,{initial:{opacity:0},whileInView:{opacity:1},transition:{duration:.6,delay:1.5},className:"flex items-center gap-3 sm:gap-5",children:n.map((A,e)=>(0,a.jsx)(c.P.li,{whileHover:{scale:1.1},className:"flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-200",children:(0,a.jsx)(o.default,{src:A,alt:"Tool",className:"w-5 sm:w-7"})},e))})]})]})]})},h=A=>{let{darkMode:e}=A,[t,l]=(0,i.useState)(""),s=async A=>{A.preventDefault(),l("Sending....");let e=new FormData(A.target);e.append("access_key","818a2b36-6f59-4aad-be89-6c7a3341e206");let t=await fetch("https://api.web3forms.com/submit",{method:"POST",body:e}),a=await t.json();a.success?(l("Thanks! I'll be in touch soon \uD83D\uDE80"),A.target.reset()):(console.log("Error",a),l(a.message))};return(0,a.jsxs)("div",{id:"contact",className:"w-full px-[12%] py-10 scroll-mt-20",children:[(0,a.jsx)("h4",{className:"text-center mb-2 text-lg",children:"Connect With Me"}),(0,a.jsx)("h2",{className:"text-center text-5xl",children:"Get In Touch"}),(0,a.jsx)("p",{className:"text-center max-w-2xl mx-auto mt-5 mb-12",children:"Let's have a chat! I'm currently open to new opportunities."}),(0,a.jsxs)("form",{onSubmit:s,className:"max-w-2xl mx-auto",children:[(0,a.jsxs)("div",{className:"grid grid-cols-auto gap-6 mt-10 mb-8",children:[(0,a.jsx)("input",{type:"text",placeholder:"Enter your name",required:!0,className:"flex-1 p-3 outline-none border-[1px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90",name:"name"}),(0,a.jsx)("input",{type:"email",placeholder:"Enter your email",required:!0,className:"flex-1 p-3 outline-none border-[1px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90",name:"email"})]}),(0,a.jsx)("textarea",{rows:"6",placeholder:"Enter your message",required:!0,className:"w-full p-4 outline-none border-[1px] border-gray-400 rounded-md bg-white mb-6 dark:bg-darkHover/30 dark:border-white/90",name:"message"}),(0,a.jsxs)("button",{type:"submit",className:"py-3 px-8 w-max flex items-center justify-between  gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[1px] dark:hover:bg-darkHover",children:["Submit",(0,a.jsx)(o.default,{src:r.right_arrow_white,alt:"",className:"w-4"})]}),(0,a.jsx)("p",{className:"mt-4 text-center",children:t})]})]})};var g=t(898);let m=A=>{let{darkMode:e}=A;return(0,a.jsxs)("div",{className:"mt-20",children:[(0,a.jsxs)("div",{className:"text-center",children:[(0,a.jsxs)("a",{href:"#top",className:"footer__logo--anchor relative inline-block",children:[(0,a.jsx)(o.default,{src:r.logo,alt:"",className:"w-24 mx-auto mb-2"}),(0,a.jsxs)("span",{className:"footer__logo--popper",children:["Top ",(0,a.jsx)(g.uCC,{})]})]}),(0,a.jsxs)("div",{className:"w-max flex items-center gap-2 mx-auto",children:[(0,a.jsx)(o.default,{src:e?r.mail_icon_dark:r.mail_icon,alt:"",className:"w-6"}),(0,a.jsx)("p",{className:"font-semibold",children:"lucashawthorne16@gmail.com"})]})]}),(0,a.jsxs)("div",{className:"text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6",children:[(0,a.jsx)("p",{children:"\xa9 2025 Lucas Hawthorne. All rights reserved."}),(0,a.jsxs)("ul",{className:"flex items-center gap-10 justify-center mt-4 sm:mt-0",children:[(0,a.jsx)("li",{className:"link__hover",children:(0,a.jsx)("a",{href:"https://github.com/lucashawthorne/",target:"_blank",children:"GitHub"})}),(0,a.jsx)("li",{className:"link__hover",children:(0,a.jsx)("a",{href:"https://linkedin.com/in/thelucashawthorne/",target:"_blank",children:"LinkedIn"})}),(0,a.jsx)("li",{className:"link__hover",children:(0,a.jsx)("a",{href:"/Lucas-Hawthorne's-Tech-Resume.pdf/",target:"_blank",children:"Resume"})})]})]})]})},p=()=>(0,a.jsx)(a.Fragment,{children:(0,a.jsxs)("div",{className:"w-11/12 max-w-3xl text-center mx-auto h-screen  flex flex-col items-center justify-center gap-4",children:[(0,a.jsx)(c.P.div,{initial:{scale:0},whileInView:{scale:1},transition:{duration:.8,type:"spring",stiffness:100},children:(0,a.jsx)(o.default,{src:r.profile,alt:"",className:"rounded-full w-32"})}),(0,a.jsxs)(c.P.h3,{initial:{y:20,opacity:0},whileInView:{y:0,opacity:1},transition:{duration:.6,delay:.3},className:"flex items-end gap-2 text-xl md:text-2xl mb-3",children:["Hey there, I'm Lucas",(0,a.jsx)(o.default,{src:r.hand_icon,alt:"",className:"w-6"})]}),(0,a.jsx)(c.P.h1,{initial:{y:20,opacity:0},whileInView:{y:0,opacity:1},transition:{duration:.8,delay:.5},className:"text-3xl sm:text-6xl lg:text-[66px] max-w-[36rem]",children:"Frontend Developer based in the U.S."}),(0,a.jsx)(c.P.p,{initial:{y:20,opacity:0},whileInView:{y:0,opacity:1},transition:{duration:.8,delay:.8},className:"max-w-[28rem] mx-auto",children:"I'm a frontend software engineer with a strong passion for building stellar web applications that leave viewers amazed."}),(0,a.jsxs)("div",{className:"flex flex-col sm:flex-row items-center gap-4 mt-4",children:[(0,a.jsxs)(c.P.a,{initial:{y:30,opacity:0},whileInView:{y:0,opacity:1},transition:{duration:.6,delay:1},href:"#contact",className:"px-10 py-3 border rounded-full border-white  bg-black text-white flex items-center gap-2 dark:bg-transparent",children:["Contact Me",(0,a.jsx)(o.default,{src:r.right_arrow_white,alt:"",className:"w-4"})]}),(0,a.jsxs)(c.P.a,{initial:{y:30,opacity:0},whileInView:{y:0,opacity:1},transition:{duration:.6,delay:1},href:"/Lucas-Hawthorne's-Tech-Resume.pdf",target:"_blank",className:"px-10 py-3 border rounded-full border-gray-500 flex  items-center gap-2 dark:text-black dark:bg-white",children:["My Resume"," ",(0,a.jsx)(o.default,{src:r.download_icon,alt:"",className:"w-4"})]})]})]})}),u=A=>{let{darkMode:e,setDarkMode:t}=A,[l,s]=(0,i.useState)(!1),n=(0,i.useRef)(),c=()=>{n.current.style.transform="translateX(16rem)"};return(0,i.useEffect)(()=>{window.addEventListener("scroll",()=>{scrollY>50?s(!0):s(!1)})},[]),(0,a.jsx)(a.Fragment,{children:(0,a.jsxs)("nav",{className:"w-full fixed px-5 lg:px-8 xl:px-[8%] flex items-center \n      justify-between z-50 ".concat(l?"bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20":""),children:[(0,a.jsx)("a",{href:"#top",children:(0,a.jsx)(o.default,{src:r.logo,alt:"",className:"w-28 cursor-pointer mr-14"})}),(0,a.jsxs)("ul",{className:"hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 \n        py-3 ".concat(l?"":"bg-gray-200 shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"),children:[(0,a.jsx)("li",{className:"link__hover",children:(0,a.jsx)("a",{href:"#top",children:"Home"})}),(0,a.jsx)("li",{className:"link__hover",children:(0,a.jsx)("a",{href:"#about",children:"About Me"})}),(0,a.jsx)("li",{className:"link__hover",children:(0,a.jsx)("a",{href:"#work",children:"My Work"})}),(0,a.jsx)("li",{className:"link__hover",children:(0,a.jsx)("a",{href:"#contact",children:"Contact Me"})})]}),(0,a.jsxs)("div",{className:"flex gap-4",children:[(0,a.jsx)("button",{onClick:()=>t(A=>!A),children:(0,a.jsx)(o.default,{src:e?r.sun_icon:r.moon_icon,alt:"",className:"w-6"})}),(0,a.jsxs)("a",{href:"#contact",className:"hidden lg:flex items-center gap-1 px-5 py-2.5 border border-gray-500 rounded-full ml-4 dark:border-white/50",children:["Contact ",(0,a.jsx)(o.default,{src:e?r.arrow_icon_dark:r.arrow_icon,alt:"",className:"w-3"})]}),(0,a.jsx)("button",{className:"block md:hidden ml-3",onClick:()=>{n.current.style.transform="translateX(-16rem)"},children:(0,a.jsx)(o.default,{src:e?r.menu_white:r.menu_black,alt:"",className:"w-6"})})]}),(0,a.jsxs)("ul",{ref:n,className:"flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-gray-200 transition duration-500 dark:bg-darkHover dark:text-white",children:[(0,a.jsx)("div",{className:"absolute right-6 top-6",onClick:c,children:(0,a.jsx)(o.default,{src:e?r.close_white:r.close_black,alt:"",className:"w-5 cursor-pointer"})}),(0,a.jsx)("li",{children:(0,a.jsx)("a",{onClick:c,href:"#top",children:"Home"})}),(0,a.jsx)("li",{children:(0,a.jsx)("a",{onClick:c,href:"#about",children:"About Me"})}),(0,a.jsx)("li",{children:(0,a.jsx)("a",{onClick:c,href:"#services",children:"Services"})}),(0,a.jsx)("li",{children:(0,a.jsx)("a",{onClick:c,href:"#work",children:"My Work"})}),(0,a.jsx)("li",{children:(0,a.jsx)("a",{onClick:c,href:"#contact",children:"Contact Me"})})]})]})})};var w=t(9740),x=t(7786),b=t(8581);let f=A=>(0,a.jsxs)(c.P.div,{initial:{opacity:0},whileInView:{opacity:1},transition:{duration:1},id:"work",className:"w-full px-[12%] py-10 scroll-mt-20",children:[(0,a.jsx)(c.P.h4,{initial:{y:20,opacity:0},whileInView:{y:0,opacity:1},transition:{duration:.5,delay:.3},className:"text-center mb-2 text-lg",children:"My Portfolio"}),(0,a.jsx)(c.P.h2,{initial:{y:20,opacity:0},whileInView:{y:0,opacity:1},transition:{duration:.5,delay:.5},className:"text-center text-5xl",children:"My Latest Work"}),(0,a.jsx)(c.P.p,{initial:{opacity:0},whileInView:{opacity:1},transition:{duration:.5,delay:.7},className:"text-center max-w-lg mx-auto mt-5 mb-12",children:"Explore my latest collection of projects showcasing my expertise in frontend development."}),(0,a.jsx)(c.P.div,{initial:{opacity:0},whileInView:{opacity:1},transition:{duration:.6,delay:.9},className:"grid grid-cols-1 md:grid-cols-2 gap-10 my-16",children:l.map((A,e)=>(0,a.jsxs)("div",{className:"relative rounded-2xl overflow-hidden shadow-2xl group max-h-[610px] h-[407px]",children:[(0,a.jsx)(o.default,{src:A.image,alt:A.title,width:800,height:600,className:" w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:blur-sm  /* Force hover ON below lg */ max-lg:scale-110 max-lg:blur-sm "}),(0,a.jsx)("div",{className:" absolute inset-0 bg-[#1c1d25] opacity-0 transition-all duration-300 group-hover:opacity-70  /* Force hover ON below lg */ max-lg:opacity-70 "}),(0,a.jsxs)("div",{className:" absolute top-1/2 left-6 transform translate-y-full opacity-0 transition-all duration-500 text-white max-w-[550px] group-hover:opacity-100 group-hover:-translate-y-1/2  /* Force hover ON below lg */ max-lg:opacity-100 max-lg:-translate-y-1/2 ",children:[(0,a.jsx)("h3",{className:"text-3xl font-bold",children:A.title}),(0,a.jsx)("h4",{className:"text-xl mt-2",children:A.subtitle}),(0,a.jsx)("p",{className:"text-lg mt-4 md:hidden",children:A.description}),(0,a.jsx)("p",{className:"text-lg mt-4 hidden md:block lg:hidden"}),(0,a.jsx)("p",{className:"text-lg mt-4 hidden lg:block",children:A.description}),(0,a.jsxs)("div",{className:"flex items-center mt-4",children:[(0,a.jsx)("a",{href:A.github,target:"_blank",className:"text-3xl mr-4 cursor-pointer transition-all duration-300 hover:scale-[1.15] hover:text-[#daa520] active:scale-[0.9]",children:(0,a.jsx)(w.gc,{icon:x.qkz})}),(0,a.jsx)("a",{href:A.demo,target:"_blank",className:"text-3xl cursor-pointer transition-all duration-300 hover:scale-[1.15] hover:text-[#daa520] active:scale-[0.9]",children:(0,a.jsx)(w.gc,{icon:b.CQO})})]})]})]},e))})]});function U(){let[A,e]=(0,i.useState)(!0);return(0,i.useEffect)(()=>{"dark"!==localStorage.theme&&("theme"in localStorage||!window.matchMedia("(prefers-color-scheme: dark)").matches)?e(!1):e(!0)},[]),(0,i.useEffect)(()=>{A?(document.documentElement.classList.add("dark"),localStorage.theme="dark"):(document.documentElement.classList.remove("dark"),localStorage.theme="")},[A]),(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(u,{darkMode:A,setDarkMode:e}),(0,a.jsx)(p,{darkMode:A}),(0,a.jsx)(d,{darkMode:A}),(0,a.jsx)(f,{darkMode:A}),(0,a.jsx)(h,{darkMode:A}),(0,a.jsx)(m,{darkMode:A})]})}}},A=>{A.O(0,[711,266,802,85,441,255,358],()=>A(A.s=4692)),_N_E=A.O()}]);
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [974],
+  {
+    4692: (A, e, t) => {
+      Promise.resolve().then(t.bind(t, 7787));
+    },
+    7787: (A, e, t) => {
+      "use strict";
+      t.r(e), t.d(e, { default: () => U });
+      var a = t(5155),
+        i = t(2115);
+      let r = {
+          About_Picture: {
+            src: "/Eportfolio//_next/static/media/About-Picture.7361e960.png",
+            height: 1887,
+            width: 1106,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAMAAAAGL8UJAAAAG1BMVEVISEhoaGhXV1ddXV1QUFArKyt2dnY4ODiDg4N6e3DrAAAACXBIWXMAACE4AAAhOAFFljFgAAAAKElEQVR4nAXBhwEAMAjDMGcA/f/iSkSygTjcALR35q0j3lZhGQap9AMK1wB6LNkE+gAAAABJRU5ErkJggg==",
+            blurWidth: 5,
+            blurHeight: 8,
+          },
+          code_icon: {
+            src: "/Eportfolio//_next/static/media/code-icon.04be3677.png",
+            height: 46,
+            width: 48,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAG1BMVEVMaXFKUmxIT2xIT2pJUGtITmNIUGpHUGpJUGriaGcvAAAACXRSTlMAnihRcAyUfGNswdiIAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAMElEQVR4nBXKxw3AQBDEMM4m99+xcT+BEGnTuCGFUNnlPj2VfT5tgn3LiwrfoUefHxD0AHs9nOs7AAAAAElFTkSuQmCC",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          code_icon_dark: {
+            src: "/Eportfolio//_next/static/media/code-icon-dark.89659bbb.png",
+            height: 46,
+            width: 48,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAHlBMVEVMaXH////////////////////////////////////Z6AnKAAAACnRSTlMAnlFwDCGUNnxjyoWNsQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAADBJREFUeJwVysENwDAIBDAfUJL9J67ytUxKF7bJh/Blhr2qT4acLr2YV+IV7pNqtX4ScACIPx2CrAAAAABJRU5ErkJggg==",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          edu_icon: {
+            src: "/Eportfolio//_next/static/media/edu-icon.6a867886.png",
+            height: 50,
+            width: 58,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAMAAAACh/xsAAAAJFBMVEVIT2pIUGpMaXFGUGpHT2pIUW0wMFhHT2pHT2pGTmlIUGpLS2m9NA33AAAADHRSTlN2WAA3hiQDSpxh1xGc8IJ9AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAMElEQVR4nAXBhwHAMAzDMEre6f//FsAOctoU1HcEm+32PHyr2RRWxJWEKbspHAkp/xwdANByJ5cnAAAAAElFTkSuQmCC",
+            blurWidth: 8,
+            blurHeight: 7,
+          },
+          edu_icon_dark: {
+            src: "/Eportfolio//_next/static/media/edu-icon-dark.1e21ba21.png",
+            height: 50,
+            width: 58,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAMAAAACh/xsAAAAKlBMVEX///9MaXH////////////////////////////////////////////////nuZ/FAAAADnRSTlN2AIZDAzBZI1NhldcRqkDl7BYAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAySURBVHicBcGJAcAgDMQwX/4A3X/dSkiJeYiEfotzLBSai/YrP1Zo0rdrEC0FjdLASj8dAADmrHrX8QAAAABJRU5ErkJggg==",
+            blurWidth: 8,
+            blurHeight: 7,
+          },
+          project_icon: {
+            src: "/Eportfolio//_next/static/media/project-icon.4bb89995.png",
+            height: 48,
+            width: 52,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAMAAAACh/xsAAAAHlBMVEVJUWtIUGpMaXFJVW1JUmxIUGlIUGpIUGlIUWpIUGpQKBwTAAAACnRSTlOZdAAEqY1+Pq3gfs0GbQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAC9JREFUeJwdybkRACAQA7G176X/hhlQKsICOSi2ainStsPJ6Za6DwwzDOB4BakvLxYgAKpf+w/8AAAAAElFTkSuQmCC",
+            blurWidth: 8,
+            blurHeight: 7,
+          },
+          project_icon_dark: {
+            src: "/Eportfolio//_next/static/media/project-icon-dark.05a168aa.png",
+            height: 48,
+            width: 52,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAMAAAACh/xsAAAAHlBMVEX///////9MaXH////////////////////+/v7+/v7D7xzeAAAACnRSTlOXdACDBD6oreBx4eXgIAAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAC9JREFUeJwVybkRACAQA7G1fQ/03zCDUlEWyEVYWMLYdnk5iZQcaLppwPULRt+dBxI7AJokKXA+AAAAAElFTkSuQmCC",
+            blurWidth: 8,
+            blurHeight: 7,
+          },
+          vscode: {
+            src: "/Eportfolio//_next/static/media/vscode.73ffb0c6.png",
+            height: 67,
+            width: 67,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAV1BMVEVMaXETfL0Terwvs/UUhdAtqu8eh84JeLgtqe8PcLMUhdIWi9sQebsQe74NXq8Pb64WkNMObasurespm+kVe8wyt/czuPUtpvQWj9QXf8wXgL4Ressws/4uV/zQAAAAHHRSTlMAVdIb/vQnBeE05frm9xvKyYrCprzZNtaJlpfW8zzv8gAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAENJREFUeJwdykkWgCAMBNEGAyFMCipO3P+cPljVXxTAjKxrG7Wa+ontlphe46ACRVkGEvmJtYinx7g5f6FfABj52O0PVkkCea/jpBEAAAAASUVORK5CYII=",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          firebase: {
+            src: "/Eportfolio//_next/static/media/firebase.de7e28f1.png",
+            height: 70,
+            width: 72,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAARVBMVEXqoS3+xjn9vCv6pxT8yz/8yz/70Ez+0EH7yj/6xj3+qxP/0kH6wDn9qxb9oRr1hxH5nA7/ow/0pBX7qBP8phX/2ET/mQ90JLYvAAAAFXRSTlMB/YOY4/se/Vqv+c3809D5rVQwQV+5w2btAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAPUlEQVR4nCXKSQ7AIAzAQLOEAN0Lyf+fWqH6ODK8ib/R01MKMLsfuQLRr2ARuH0XbcAZRHQDmqnaEmpe7wc+IwGzQfBw5AAAAABJRU5ErkJggg==",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          figma: {
+            src: "/Eportfolio//_next/static/media/figma.dc8b4aa1.png",
+            height: 92,
+            width: 92,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAM1BMVEVMaXH+b13xTBs0r/KdXfUXvv75YEr2cU0J0IL+cmIYypGkVv2hWf8etf8dzbDzUB/3Uy8Ddx4bAAAAEHRSTlMA9r3o98EWBsS99MLB0RrxjOAjNQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAADVJREFUeJwliUsSwCAMhTAaE+3H3v+0HZ8rGACi9wAIW2XI7Ctjk6tVl9ztca2crwKZh6D+AyJ3ANdKSvkqAAAAAElFTkSuQmCC",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          git: {
+            src: "/Eportfolio//_next/static/media/git.90284f53.png",
+            height: 80,
+            width: 80,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAKlBMVEXqUj3/VTXqRzH0VkBMaXHzSjLyOR/wdmT5vLP2h3f/qlXsk4j5opf6sKZAiD8mAAAADHRSTlNEA0T3APjz/f75A0W11L9TAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAOElEQVR4nB3KQQ7AIAzEwN3EaaGE/3+3gttItjAhjD7WLGGhGvsRUtY7OuNiHqDqPslE5p1NBOYHJ+EBDegGAaoAAAAASUVORK5CYII=",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          right_arrow_white: {
+            src: "/Eportfolio//_next/static/media/right-arrow-white.1f96697c.png",
+            height: 22,
+            width: 33,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAAJ1BMVEX///9MaXH////////////////////////////////////+/v7///+nZARiAAAADXRSTlMhAASzM57lysAVZgdoVEXAfwAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAACpJREFUeJwVyrcRACAQBLG995j+62VQLCSJCfGtXUG6u2c1ZnZ0G/6JQQ8LVgCItjqSngAAAABJRU5ErkJggg==",
+            blurWidth: 8,
+            blurHeight: 5,
+          },
+          logo: {
+            src: "/Eportfolio//_next/static/media/logo.36c47c97.png",
+            height: 1114,
+            width: 1124,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAP1BMVEVMaXHuvDvxwkzlwGdnfLvguVLtz3XW1rvntjvHt4Rra2tNTU0TFh5wcHCIdUMMCwoYFRT///9BPjEVGyWXgERLoIVdAAAAFXRSTlMA7VFFDHMqB9sbLUjCK7n39BDJl50ApI3HAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANElEQVR4nGNggAMWbhZOZhCDS4CFiYOdgYGBl19YBMzgFOLhAzPYGAWZGMEirOxsrAi9DAAq6AEn5jfJ8QAAAABJRU5ErkJggg==",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          mail_icon: {
+            src: "/Eportfolio//_next/static/media/mail_icon.e6102686.png",
+            height: 47,
+            width: 64,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAMAAADJ2y/JAAAAGFBMVEV+fn59fX18fHx7e3t6enp7e3t8fHyFhYWRxpcbAAAAB3RSTlP86KSQecO0Q7FbLwAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAACtJREFUeJw1ybkNADAMA7GT5Gf/jQMX6QiQ0cLKULPrEhAnHNruw680Ep0HDowAhAtotyMAAAAASUVORK5CYII=",
+            blurWidth: 8,
+            blurHeight: 6,
+          },
+          mail_icon_dark: {
+            src: "/Eportfolio//_next/static/media/mail_icon_dark.fdb2cf1a.png",
+            height: 47,
+            width: 64,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAMAAADJ2y/JAAAAHlBMVEX////////////////////////////////////+/v56BqeyAAAACnRSTlP97KSQebTfw8S/WyM9qAAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAACxJREFUeJw1ycENACAMA7FL0lLYf2HEg58l0wtgGarBJSBOeBh7I/Qrg8TJBQr6AG2MpWurAAAAAElFTkSuQmCC",
+            blurWidth: 8,
+            blurHeight: 6,
+          },
+          profile: {
+            src: "/Eportfolio//_next/static/media/profile.d20edc09.png",
+            height: 1082,
+            width: 1080,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAgVBMVEUnICNxTUPm8/UxNUdsdoVrV1KCk4+ncFgeEhOWpKx6T0KgX0+NXESEfYbbrI26jmoPCw4WHDRnRUJnY3IzOmNgYWtFRlR1fn+Qrbmgvs3O4OWLoamwztmoiXJYgpR5m6q/m39DMCorJzukgHRJV2KpqqtcQDvJe2ifdFfTuqHMqp9erwnaAAAACXBIWXMAAAsTAAALEwEAmpwYAAAASElEQVR4nAXBBQKAIAAEsENAWrC72/8/0A2uqOO+iTuonKNqowiqBDI2zGCpJJpPBygdhdlPh21JhLneD8SvVkt/Q9gAGZ7kB4tfBB+8lSqpAAAAAElFTkSuQmCC",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          download_icon: {
+            src: "/Eportfolio//_next/static/media/download-icon.18868f5d.png",
+            height: 44,
+            width: 44,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAHlBMVEVMaXEjIyMkJCQmJiYkJCQlJSUlJSUkJCQjIyMkJCQstXC9AAAACnRSTlMAoGINeFk2YZDCLhFReAAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAC9JREFUeJxVyrkRADAIxEAdj4H+G/aMibyRAgFkssz+8FN1HJyYCZwGCRrtJ0JPXA+KAHVJ2exBAAAAAElFTkSuQmCC",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          hand_icon: {
+            src: "/Eportfolio//_next/static/media/hand-icon.daa29b90.png",
+            height: 57,
+            width: 56,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAWlBMVEVMaXHq1ZT1zqzswZ9oZ2jyyqbvxaHwyaf95sjwyaf20a5PVk5LU1r217bSqInvy6jwyaa3ooxUWV6lmYzy0LDpxaX427z627jZpHrmuZfUmnP/9Nj/0qz/7dAlHRGnAAAAG3RSTlMABho7MJyE0Pzh1BBG83e2aGBeFON4+qow94SuQ6OEAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAQElEQVR4nAXBBQKAMAwAsZu2M9wH//8mCRjrvAeYxjwvq8WEJFJ2gZCknTlCTJtqj9QhHapfwFfXur4DFC65H35MggKGDpSl3wAAAABJRU5ErkJggg==",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          moon_icon: {
+            src: "/Eportfolio//_next/static/media/moon_icon.929620b8.png",
+            height: 58,
+            width: 58,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAALVBMVEVMaXGQkJC9vb2UlJSampqRkZGPj4+enp6QkJCnp6eLi4uYmJiPj4+SkpKRkZEPqoNhAAAAD3RSTlMAsw1lRZOgHH0orDfabot57D7IAAAACXBIWXMAABYlAAAWJQFJUiTwAAAANUlEQVR4nB3KuREAMQjAQPGD7f7rvTkUbSC4MvzNEV+Emy1SR3RR2LmltIFHPHTfDqiUlOYDHEgA1VydhAkAAAAASUVORK5CYII=",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          sun_icon: {
+            src: "/Eportfolio//_next/static/media/sun_icon.b58c3800.png",
+            height: 58,
+            width: 58,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAGFBMVEX///9MaXH////////////////////+/v7SDDtGAAAACHRSTlNZACgXODs9PwWeyTkAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAvSURBVHicTcuxDQAgDMRAO5/A/hsjCiQ6F2fUaRVJVRCzYCJTANX0CzOw82Ptux8Q1QB2yxTatgAAAABJRU5ErkJggg==",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          arrow_icon: {
+            src: "/Eportfolio//_next/static/media/arrow-icon.3e51d3e2.png",
+            height: 39,
+            width: 39,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAG1BMVEVFRUVMaXFGRkZCQkJFRUVFRUVERERFRUVHR0fgGYEKAAAACHRSTlM8AF4FZesNnH65azYAAAAJcEhZcwAAITgAACE4AUWWMWAAAAAySURBVHicHcbHEcAwEMQw8oK0/VfskfEC5LccgJugWnuD7aQIbWUkWClfJmW/7Nh6+AAk2ADqXU4BHQAAAABJRU5ErkJggg==",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          arrow_icon_dark: {
+            src: "/Eportfolio//_next/static/media/arrow-icon-dark.9f9fde66.png",
+            height: 39,
+            width: 39,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAG1BMVEX////////////////////////////+/v7///9JhYuvAAAACXRSTlMC/z5j6JxXKfKc0fDWAAAACXBIWXMAACE4AAAhOAFFljFgAAAALklEQVR4nB3IwQ0AMAzCQCBpm/0nrhw+Z6F411KSd2yxO2ewfMNTLhFIrESjlA8R1ABwn7Qh0QAAAABJRU5ErkJggg==",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          menu_black: {
+            src: "/Eportfolio//_next/static/media/menu-black.a8f2e51b.png",
+            height: 58,
+            width: 72,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAMAAADJ2y/JAAAAD1BMVEVMaXEeHh4eHh4eHh4iIiKAJCKPAAAABXRSTlMArYGdDr7Kb44AAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAaSURBVHicY2BmBANmBiTAwgQCyAwYYIIoBgAFjwAzvzBICQAAAABJRU5ErkJggg==",
+            blurWidth: 8,
+            blurHeight: 6,
+          },
+          menu_white: {
+            src: "/Eportfolio//_next/static/media/menu-white.f55aa784.png",
+            height: 58,
+            width: 72,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAMAAADJ2y/JAAAAElBMVEVMaXH////////////////////7e1ULAAAABnRSTlMArYZ5nQ5WVD/eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAHElEQVR4nGNgYQQDFgYkwMrMxMTEjMyAASaIYgAGkgA81bFPxgAAAABJRU5ErkJggg==",
+            blurWidth: 8,
+            blurHeight: 6,
+          },
+          close_black: {
+            src: "/Eportfolio//_next/static/media/close-black.9009bd8a.png",
+            height: 29,
+            width: 29,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAJFBMVEUAAAAfHx8eHh4eHh4fHx8fHx8dHR0eHh4eHh4aGhoeHh4eHh6BJ15VAAAADHRSTlMBWUOR6f4a4rITfyHa9nllAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAMUlEQVR4nE2KMQ4AIAjECqII/v+/5uLi1CYtwwDOxqbDioGsRLDMFqlUVW//P/b74gIacgC3lt35MgAAAABJRU5ErkJggg==",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          close_white: {
+            src: "/Eportfolio//_next/static/media/close-white.57398b0d.png",
+            height: 29,
+            width: 29,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAJ1BMVEX///////////////9MaXH///////////////////////////////+zNv0pAAAADXRSTlPmBEX+AFsajZeyE38hDpdUbQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAADZJREFUeJwVy0kSwDAIwDADJmv//95O7hIzjfDbdKUOFnblYUrYcA3CQ6WBg5uVMpg+x16vNz8lKgD+n+kPXAAAAABJRU5ErkJggg==",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          web_icon: {
+            src: "/Eportfolio//_next/static/media/web-icon.991b139d.png",
+            height: 96,
+            width: 96,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAIVBMVEX/Nov/N4v/OY/+N4r/Nov/lMD/RZP/ZKT/dq//d7D/d69njKjGAAAABHRSTlPwaeV7li0vjwAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAC9JREFUeJw9ikEKACAMwzpNN/X/DxYGmlMg0aQJCTJhCMouJNL7OFvWannpz6EmLia9APptrMSIAAAAAElFTkSuQmCC",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          mobile_icon: {
+            src: "/Eportfolio//_next/static/media/mobile-icon.cb8cec69.png",
+            height: 96,
+            width: 96,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAJ1BMVEX/OIv/N4v/OZD/OY//e7L/OIz/NYr/PpD/9fn/k8D/pcv/xd3/tdMkB6s4AAAABXRSTlPvbvXl/nkVvwYAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAA1SURBVHicHcZBEsAgDAMxB7pOQvn/exnQSQqwITRwppnC+W+QnKuqLUFXfTdmtZEGV06Fnjgw4wE3IhT6MAAAAABJRU5ErkJggg==",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          ui_icon: {
+            src: "/Eportfolio//_next/static/media/ui-icon.87d9d95a.png",
+            height: 96,
+            width: 96,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAHlBMVEX/OIz/N4v+N4r/Z6b/Nov/kb//VZz/R5T/cq3/p8zbu+uWAAAABHRSTlPuaXv+VPvfGAAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAC1JREFUeJxjYGIBA0YGBggDRHOwsbOBGOysrKycUAYnKztEig0kBVfMyAAGjAAkqADs/jreBAAAAABJRU5ErkJggg==",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          graphics_icon: {
+            src: "/Eportfolio//_next/static/media/graphics-icon.275859ac.png",
+            height: 96,
+            width: 96,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAKlBMVEX/N4r/N4v/qc3/OZD/OZD+N4r/ncb/N4v/P5D/yuD/udb/2+r/5/H///889lQlAAAAB3RSTlPvaf715Xv+8CwH8AAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAADZJREFUeJwdyEESgDAIBMGFRGcB/f93LdPH1sURWtiGLejnLSRcM2UJsqv/4Z5MpAUGb4WO+AA8lAF4eb38jgAAAABJRU5ErkJggg==",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+        },
+        l = [
+          {
+            title: "Skinstric AI - Virtual Internship",
+            subtitle: "React, JavaScript, HTML, CSS",
+            description:
+              "Sleek AI facial analysis with camera capture and photo upload functionality.",
+            image: "/work-1.png",
+            github:
+              "https://github.com/lucashawthorne/skinstric-ai-virtual-internship",
+            demo: "https://skinstric-ai-virtual-internship.vercel.app/",
+          },
+          {
+            title: "Ultraverse NFT Marketplace",
+            subtitle: "React, JavaScript, HTML, CSS",
+            description:
+              "An incredible NFT Marketplace that displays a library of NFTs for sale through use of APIs.",
+            image: "/work-2.png",
+            github: "https://github.com/lucashawthorne/ultraverse-marketplace",
+            demo: "https://lucashawthorne.github.io/ultraverse-marketplace/",
+          },
+          {
+            title: "Netflix Clone",
+            subtitle: "React, JavaScript, HTML, CSS",
+            description:
+              "A Netflix clone that features numerous arrays of current films based on different criteria.",
+            image: "/work-3.png",
+            github: "https://github.com/lucashawthorne/netflix-clone/",
+            demo: "https://lucashawthorne.github.io/netflix-clone/",
+          },
+          {
+            title: "Skinstric AI - Virtual Internship",
+            subtitle: "React, JavaScript, HTML, CSS",
+            description:
+              "An comprehensive online library for numerous books, powered by React.",
+            image: "/work-4.png",
+            github: "https://github.com/lucashawthorne/react-online-library/",
+            demo: "https://lucashawthorne.github.io/react-online-library/",
+          },
+        ];
+      r.web_icon, r.mobile_icon, r.ui_icon, r.graphics_icon;
+      let s = [
+          {
+            icon: r.code_icon,
+            iconDark: r.code_icon_dark,
+            title: "Languages",
+            description:
+              "Next.js, Tailwind CSS, TypeScript, JavaScript, HTML, CSS",
+          },
+          {
+            icon: r.edu_icon,
+            iconDark: r.edu_icon_dark,
+            title: "Education",
+            description: "FES Institute Graduate",
+          },
+          {
+            icon: r.project_icon,
+            iconDark: r.project_icon_dark,
+            title: "Projects",
+            description: "Built more than 10 projects",
+          },
+        ],
+        n = [r.vscode, r.firebase, r.figma, r.git];
+      var o = t(5239),
+        c = t(273);
+      let d = (A) => {
+          let { darkMode: e } = A;
+          return (0, a.jsxs)(c.P.div, {
+            initial: { opacity: 0 },
+            whileInView: { opacity: 1 },
+            transition: { duration: 1 },
+            id: "about",
+            className: "w-full px-[12%] py-10 scroll-mt-20",
+            children: [
+              (0, a.jsx)(c.P.h4, {
+                initial: { y: 20, opacity: 0 },
+                whileInView: { y: 0, opacity: 1 },
+                transition: { duration: 0.5, delay: 0.3 },
+                className: "text-center mb-2 text-lg",
+                children: "Introduction",
+              }),
+              (0, a.jsx)(c.P.h2, {
+                initial: { y: 20, opacity: 0 },
+                whileInView: { y: 0, opacity: 1 },
+                transition: { duration: 0.5, delay: 0.5 },
+                className: "text-center text-5xl",
+                children: "About Me",
+              }),
+              (0, a.jsxs)(c.P.div, {
+                initial: { opacity: 0 },
+                whileInView: { opacity: 1 },
+                transition: { duration: 0.8 },
+                className:
+                  "flex w-full flex-col lg:flex-row items-center gap-20 my-20",
+                children: [
+                  (0, a.jsx)(c.P.div, {
+                    initial: { scale: 0.9, opacity: 0 },
+                    whileInView: { scale: 1, opacity: 1 },
+                    transition: { duration: 0.6 },
+                    className: "w-64 sm:w-80 rounded-3xl max-w-none",
+                    children: (0, a.jsx)(o.default, {
+                      src: r.About_Picture,
+                      alt: "user",
+                      className: "w-full rounded-3xl",
+                    }),
+                  }),
+                  (0, a.jsxs)(c.P.div, {
+                    initial: { opacity: 0 },
+                    whileInView: { opacity: 1 },
+                    transition: { duration: 0.6, delay: 0.8 },
+                    className: "flex-1",
+                    children: [
+                      (0, a.jsx)("p", {
+                        className: "mb-10 max-w-2xl",
+                        children:
+                          "I'm an early-career frontend developer with a strong foundation in Next.js, Tailwind CSS, and TypeScript. I bring to the table fast learning, strong problem-solving, and a serious work ethic. I'm fully committed to cementing my career in tech and becoming a high-performing contributor on whichever team I join.",
+                      }),
+                      (0, a.jsx)(c.P.ul, {
+                        initial: { opacity: 0 },
+                        whileInView: { opacity: 1 },
+                        transition: { duration: 0.8, delay: 1 },
+                        className:
+                          "grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl",
+                        children: s.map((A, t) => {
+                          let {
+                            icon: i,
+                            iconDark: r,
+                            title: l,
+                            description: s,
+                          } = A;
+                          return (0, a.jsxs)(
+                            c.P.li,
+                            {
+                              whileHover: { scale: 1.05 },
+                              className:
+                                "border-[1px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50",
+                              children: [
+                                (0, a.jsx)(o.default, {
+                                  src: e ? r : i,
+                                  alt: l,
+                                  className: "w-7 mt-3",
+                                }),
+                                (0, a.jsx)("h3", {
+                                  className:
+                                    "my-4 font-semibold text-gray-700 dark:text-white",
+                                  children: l,
+                                }),
+                                (0, a.jsx)("p", {
+                                  className:
+                                    "text-gray-600 text-sm dark:text-white/80",
+                                  children: s,
+                                }),
+                              ],
+                            },
+                            t
+                          );
+                        }),
+                      }),
+                      (0, a.jsx)(c.P.h4, {
+                        initial: { y: 20, opacity: 0 },
+                        whileInView: { y: 0, opacity: 1 },
+                        transition: { duration: 1.3, delay: 0.5 },
+                        className:
+                          "my-6 text-gray-700 font-light text-xl dark:text-white/80",
+                        children: "Tools I Use:",
+                      }),
+                      (0, a.jsx)(c.P.ul, {
+                        initial: { opacity: 0 },
+                        whileInView: { opacity: 1 },
+                        transition: { duration: 0.6, delay: 1.5 },
+                        className: "flex items-center gap-3 sm:gap-5",
+                        children: n.map((A, e) =>
+                          (0, a.jsx)(
+                            c.P.li,
+                            {
+                              whileHover: { scale: 1.1 },
+                              className:
+                                "flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-200",
+                              children: (0, a.jsx)(o.default, {
+                                src: A,
+                                alt: "Tool",
+                                className: "w-5 sm:w-7",
+                              }),
+                            },
+                            e
+                          )
+                        ),
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            ],
+          });
+        },
+        h = (A) => {
+          let { darkMode: e } = A,
+            [t, l] = (0, i.useState)(""),
+            s = async (A) => {
+              A.preventDefault(), l("Sending....");
+              let e = new FormData(A.target);
+              e.append("access_key", "818a2b36-6f59-4aad-be89-6c7a3341e206");
+              let t = await fetch("https://api.web3forms.com/submit", {
+                  method: "POST",
+                  body: e,
+                }),
+                a = await t.json();
+              a.success
+                ? (l("Thanks! I'll be in touch soon \uD83D\uDE80"),
+                  A.target.reset())
+                : (console.log("Error", a), l(a.message));
+            };
+          return (0, a.jsxs)("div", {
+            id: "contact",
+            className: "w-full px-[12%] py-10 scroll-mt-20",
+            children: [
+              (0, a.jsx)("h4", {
+                className: "text-center mb-2 text-lg",
+                children: "Connect With Me",
+              }),
+              (0, a.jsx)("h2", {
+                className: "text-center text-5xl",
+                children: "Get In Touch",
+              }),
+              (0, a.jsx)("p", {
+                className: "text-center max-w-2xl mx-auto mt-5 mb-12",
+                children:
+                  "Let's have a chat! I'm currently open to new opportunities.",
+              }),
+              (0, a.jsxs)("form", {
+                onSubmit: s,
+                className: "max-w-2xl mx-auto",
+                children: [
+                  (0, a.jsxs)("div", {
+                    className: "grid grid-cols-auto gap-6 mt-10 mb-8",
+                    children: [
+                      (0, a.jsx)("input", {
+                        type: "text",
+                        placeholder: "Enter your name",
+                        required: !0,
+                        className:
+                          "flex-1 p-3 outline-none border-[1px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90",
+                        name: "name",
+                      }),
+                      (0, a.jsx)("input", {
+                        type: "email",
+                        placeholder: "Enter your email",
+                        required: !0,
+                        className:
+                          "flex-1 p-3 outline-none border-[1px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90",
+                        name: "email",
+                      }),
+                    ],
+                  }),
+                  (0, a.jsx)("textarea", {
+                    rows: "6",
+                    placeholder: "Enter your message",
+                    required: !0,
+                    className:
+                      "w-full p-4 outline-none border-[1px] border-gray-400 rounded-md bg-white mb-6 dark:bg-darkHover/30 dark:border-white/90",
+                    name: "message",
+                  }),
+                  (0, a.jsxs)("button", {
+                    type: "submit",
+                    className:
+                      "py-3 px-8 w-max flex items-center justify-between  gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[1px] dark:hover:bg-darkHover",
+                    children: [
+                      "Submit",
+                      (0, a.jsx)(o.default, {
+                        src: r.right_arrow_white,
+                        alt: "",
+                        className: "w-4",
+                      }),
+                    ],
+                  }),
+                  (0, a.jsx)("p", {
+                    className: "mt-4 text-center",
+                    children: t,
+                  }),
+                ],
+              }),
+            ],
+          });
+        };
+      var g = t(898);
+      let m = (A) => {
+          let { darkMode: e } = A;
+          return (0, a.jsxs)("div", {
+            className: "mt-20",
+            children: [
+              (0, a.jsxs)("div", {
+                className: "text-center",
+                children: [
+                  (0, a.jsxs)("a", {
+                    href: "#top",
+                    className: "footer__logo--anchor relative inline-block",
+                    children: [
+                      (0, a.jsx)(o.default, {
+                        src: r.logo,
+                        alt: "",
+                        className: "w-24 mx-auto mb-2",
+                      }),
+                      (0, a.jsxs)("span", {
+                        className: "footer__logo--popper",
+                        children: ["Top ", (0, a.jsx)(g.uCC, {})],
+                      }),
+                    ],
+                  }),
+                  (0, a.jsxs)("div", {
+                    className: "w-max flex items-center gap-2 mx-auto",
+                    children: [
+                      (0, a.jsx)(o.default, {
+                        src: e ? r.mail_icon_dark : r.mail_icon,
+                        alt: "",
+                        className: "w-6",
+                      }),
+                      (0, a.jsx)("p", {
+                        className: "font-semibold",
+                        children: "lucashawthorne16@gmail.com",
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+              (0, a.jsxs)("div", {
+                className:
+                  "text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6",
+                children: [
+                  (0, a.jsx)("p", {
+                    children: "\xa9 2025 Lucas Hawthorne. All rights reserved.",
+                  }),
+                  (0, a.jsxs)("ul", {
+                    className:
+                      "flex items-center gap-10 justify-center mt-4 sm:mt-0",
+                    children: [
+                      (0, a.jsx)("li", {
+                        className: "link__hover",
+                        children: (0, a.jsx)("a", {
+                          href: "https://github.com/lucashawthorne/",
+                          target: "_blank",
+                          children: "GitHub",
+                        }),
+                      }),
+                      (0, a.jsx)("li", {
+                        className: "link__hover",
+                        children: (0, a.jsx)("a", {
+                          href: "https://linkedin.com/in/thelucashawthorne/",
+                          target: "_blank",
+                          children: "LinkedIn",
+                        }),
+                      }),
+                      (0, a.jsx)("li", {
+                        className: "link__hover",
+                        children: (0, a.jsx)("a", {
+                          href: "/Lucas-Hawthorne's-Tech-Resume.pdf/",
+                          target: "_blank",
+                          children: "Resume",
+                        }),
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            ],
+          });
+        },
+        p = () =>
+          (0, a.jsx)(a.Fragment, {
+            children: (0, a.jsxs)("div", {
+              className:
+                "w-11/12 max-w-3xl text-center mx-auto h-screen  flex flex-col items-center justify-center gap-4",
+              children: [
+                (0, a.jsx)(c.P.div, {
+                  initial: { scale: 0 },
+                  whileInView: { scale: 1 },
+                  transition: { duration: 0.8, type: "spring", stiffness: 100 },
+                  children: (0, a.jsx)(o.default, {
+                    src: r.profile,
+                    alt: "",
+                    className: "rounded-full w-32",
+                  }),
+                }),
+                (0, a.jsxs)(c.P.h3, {
+                  initial: { y: 20, opacity: 0 },
+                  whileInView: { y: 0, opacity: 1 },
+                  transition: { duration: 0.6, delay: 0.3 },
+                  className: "flex items-end gap-2 text-xl md:text-2xl mb-3",
+                  children: [
+                    "Hey there, I'm Lucas",
+                    (0, a.jsx)(o.default, {
+                      src: r.hand_icon,
+                      alt: "",
+                      className: "w-6",
+                    }),
+                  ],
+                }),
+                (0, a.jsx)(c.P.h1, {
+                  initial: { y: 20, opacity: 0 },
+                  whileInView: { y: 0, opacity: 1 },
+                  transition: { duration: 0.8, delay: 0.5 },
+                  className:
+                    "text-3xl sm:text-6xl lg:text-[66px] max-w-[36rem]",
+                  children: "Frontend Developer based in the U.S.",
+                }),
+                (0, a.jsx)(c.P.p, {
+                  initial: { y: 20, opacity: 0 },
+                  whileInView: { y: 0, opacity: 1 },
+                  transition: { duration: 0.8, delay: 0.8 },
+                  className: "max-w-[28rem] mx-auto",
+                  children:
+                    "I'm a frontend software engineer with a strong passion for building stellar web applications that leave viewers amazed.",
+                }),
+                (0, a.jsxs)("div", {
+                  className:
+                    "flex flex-col sm:flex-row items-center gap-4 mt-4",
+                  children: [
+                    (0, a.jsxs)(c.P.a, {
+                      initial: { y: 30, opacity: 0 },
+                      whileInView: { y: 0, opacity: 1 },
+                      transition: { duration: 0.6, delay: 1 },
+                      href: "#contact",
+                      className:
+                        "px-10 py-3 border rounded-full border-white  bg-black text-white flex items-center gap-2 dark:bg-transparent",
+                      children: [
+                        "Contact Me",
+                        (0, a.jsx)(o.default, {
+                          src: r.right_arrow_white,
+                          alt: "",
+                          className: "w-4",
+                        }),
+                      ],
+                    }),
+                    (0, a.jsxs)(c.P.a, {
+                      initial: { y: 30, opacity: 0 },
+                      whileInView: { y: 0, opacity: 1 },
+                      transition: { duration: 0.6, delay: 1 },
+                      href: "/Lucas-Hawthorne's-Tech-Resume.pdf",
+                      target: "_blank",
+                      className:
+                        "px-10 py-3 border rounded-full border-gray-500 flex  items-center gap-2 dark:text-black dark:bg-white",
+                      children: [
+                        "My Resume",
+                        " ",
+                        (0, a.jsx)(o.default, {
+                          src: r.download_icon,
+                          alt: "",
+                          className: "w-4",
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+              ],
+            }),
+          }),
+        u = (A) => {
+          let { darkMode: e, setDarkMode: t } = A,
+            [l, s] = (0, i.useState)(!1),
+            n = (0, i.useRef)(),
+            c = () => {
+              n.current.style.transform = "translateX(16rem)";
+            };
+          return (
+            (0, i.useEffect)(() => {
+              window.addEventListener("scroll", () => {
+                scrollY > 50 ? s(!0) : s(!1);
+              });
+            }, []),
+            (0, a.jsx)(a.Fragment, {
+              children: (0, a.jsxs)("nav", {
+                className:
+                  "w-full fixed px-5 lg:px-8 xl:px-[8%] flex items-center \n      justify-between z-50 ".concat(
+                    l
+                      ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20"
+                      : ""
+                  ),
+                children: [
+                  (0, a.jsx)("a", {
+                    href: "#top",
+                    children: (0, a.jsx)(o.default, {
+                      src: r.logo,
+                      alt: "",
+                      className: "w-28 cursor-pointer mr-14",
+                    }),
+                  }),
+                  (0, a.jsxs)("ul", {
+                    className:
+                      "hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 \n        py-3 ".concat(
+                        l
+                          ? ""
+                          : "bg-gray-200 shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"
+                      ),
+                    children: [
+                      (0, a.jsx)("li", {
+                        className: "link__hover",
+                        children: (0, a.jsx)("a", {
+                          href: "#top",
+                          children: "Home",
+                        }),
+                      }),
+                      (0, a.jsx)("li", {
+                        className: "link__hover",
+                        children: (0, a.jsx)("a", {
+                          href: "#about",
+                          children: "About Me",
+                        }),
+                      }),
+                      (0, a.jsx)("li", {
+                        className: "link__hover",
+                        children: (0, a.jsx)("a", {
+                          href: "#work",
+                          children: "My Work",
+                        }),
+                      }),
+                      (0, a.jsx)("li", {
+                        className: "link__hover",
+                        children: (0, a.jsx)("a", {
+                          href: "#contact",
+                          children: "Contact Me",
+                        }),
+                      }),
+                    ],
+                  }),
+                  (0, a.jsxs)("div", {
+                    className: "flex gap-4",
+                    children: [
+                      (0, a.jsx)("button", {
+                        onClick: () => t((A) => !A),
+                        children: (0, a.jsx)(o.default, {
+                          src: e ? r.sun_icon : r.moon_icon,
+                          alt: "",
+                          className: "w-6",
+                        }),
+                      }),
+                      (0, a.jsxs)("a", {
+                        href: "#contact",
+                        className:
+                          "hidden lg:flex items-center gap-1 px-5 py-2.5 border border-gray-500 rounded-full ml-4 dark:border-white/50",
+                        children: [
+                          "Contact ",
+                          (0, a.jsx)(o.default, {
+                            src: e ? r.arrow_icon_dark : r.arrow_icon,
+                            alt: "",
+                            className: "w-3",
+                          }),
+                        ],
+                      }),
+                      (0, a.jsx)("button", {
+                        className: "block md:hidden ml-3",
+                        onClick: () => {
+                          n.current.style.transform = "translateX(-16rem)";
+                        },
+                        children: (0, a.jsx)(o.default, {
+                          src: e ? r.menu_white : r.menu_black,
+                          alt: "",
+                          className: "w-6",
+                        }),
+                      }),
+                    ],
+                  }),
+                  (0, a.jsxs)("ul", {
+                    ref: n,
+                    className:
+                      "flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-gray-200 transition duration-500 dark:bg-darkHover dark:text-white",
+                    children: [
+                      (0, a.jsx)("div", {
+                        className: "absolute right-6 top-6",
+                        onClick: c,
+                        children: (0, a.jsx)(o.default, {
+                          src: e ? r.close_white : r.close_black,
+                          alt: "",
+                          className: "w-5 cursor-pointer",
+                        }),
+                      }),
+                      (0, a.jsx)("li", {
+                        children: (0, a.jsx)("a", {
+                          onClick: c,
+                          href: "#top",
+                          children: "Home",
+                        }),
+                      }),
+                      (0, a.jsx)("li", {
+                        children: (0, a.jsx)("a", {
+                          onClick: c,
+                          href: "#about",
+                          children: "About Me",
+                        }),
+                      }),
+                      (0, a.jsx)("li", {
+                        children: (0, a.jsx)("a", {
+                          onClick: c,
+                          href: "#services",
+                          children: "Services",
+                        }),
+                      }),
+                      (0, a.jsx)("li", {
+                        children: (0, a.jsx)("a", {
+                          onClick: c,
+                          href: "#work",
+                          children: "My Work",
+                        }),
+                      }),
+                      (0, a.jsx)("li", {
+                        children: (0, a.jsx)("a", {
+                          onClick: c,
+                          href: "#contact",
+                          children: "Contact Me",
+                        }),
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            })
+          );
+        };
+      var w = t(9740),
+        x = t(7786),
+        b = t(8581);
+      let f = (A) =>
+        (0, a.jsxs)(c.P.div, {
+          initial: { opacity: 0 },
+          whileInView: { opacity: 1 },
+          transition: { duration: 1 },
+          id: "work",
+          className: "w-full px-[12%] py-10 scroll-mt-20",
+          children: [
+            (0, a.jsx)(c.P.h4, {
+              initial: { y: 20, opacity: 0 },
+              whileInView: { y: 0, opacity: 1 },
+              transition: { duration: 0.5, delay: 0.3 },
+              className: "text-center mb-2 text-lg",
+              children: "My Portfolio",
+            }),
+            (0, a.jsx)(c.P.h2, {
+              initial: { y: 20, opacity: 0 },
+              whileInView: { y: 0, opacity: 1 },
+              transition: { duration: 0.5, delay: 0.5 },
+              className: "text-center text-5xl",
+              children: "My Latest Work",
+            }),
+            (0, a.jsx)(c.P.p, {
+              initial: { opacity: 0 },
+              whileInView: { opacity: 1 },
+              transition: { duration: 0.5, delay: 0.7 },
+              className: "text-center max-w-lg mx-auto mt-5 mb-12",
+              children:
+                "Explore my latest collection of projects showcasing my expertise in frontend development.",
+            }),
+            (0, a.jsx)(c.P.div, {
+              initial: { opacity: 0 },
+              whileInView: { opacity: 1 },
+              transition: { duration: 0.6, delay: 0.9 },
+              className: "grid grid-cols-1 md:grid-cols-2 gap-10 my-16",
+              children: l.map((A, e) =>
+                (0, a.jsxs)(
+                  "div",
+                  {
+                    className:
+                      "relative rounded-2xl overflow-hidden shadow-2xl group max-h-[610px] h-[407px]",
+                    children: [
+                      (0, a.jsx)(o.default, {
+                        src: A.image,
+                        alt: A.title,
+                        width: 800,
+                        height: 600,
+                        className:
+                          " w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:blur-sm  /* Force hover ON below lg */ max-lg:scale-110 max-lg:blur-sm ",
+                      }),
+                      (0, a.jsx)("div", {
+                        className:
+                          " absolute inset-0 bg-[#1c1d25] opacity-0 transition-all duration-300 group-hover:opacity-70  /* Force hover ON below lg */ max-lg:opacity-70 ",
+                      }),
+                      (0, a.jsxs)("div", {
+                        className:
+                          " absolute top-1/2 left-6 transform translate-y-full opacity-0 transition-all duration-500 text-white max-w-[550px] group-hover:opacity-100 group-hover:-translate-y-1/2  /* Force hover ON below lg */ max-lg:opacity-100 max-lg:-translate-y-1/2 ",
+                        children: [
+                          (0, a.jsx)("h3", {
+                            className: "text-3xl font-bold",
+                            children: A.title,
+                          }),
+                          (0, a.jsx)("h4", {
+                            className: "text-xl mt-2",
+                            children: A.subtitle,
+                          }),
+                          (0, a.jsx)("p", {
+                            className: "text-lg mt-4 md:hidden",
+                            children: A.description,
+                          }),
+                          (0, a.jsx)("p", {
+                            className: "text-lg mt-4 hidden md:block lg:hidden",
+                          }),
+                          (0, a.jsx)("p", {
+                            className: "text-lg mt-4 hidden lg:block",
+                            children: A.description,
+                          }),
+                          (0, a.jsxs)("div", {
+                            className: "flex items-center mt-4",
+                            children: [
+                              (0, a.jsx)("a", {
+                                href: A.github,
+                                target: "_blank",
+                                className:
+                                  "text-3xl mr-4 cursor-pointer transition-all duration-300 hover:scale-[1.15] hover:text-[#daa520] active:scale-[0.9]",
+                                children: (0, a.jsx)(w.gc, { icon: x.qkz }),
+                              }),
+                              (0, a.jsx)("a", {
+                                href: A.demo,
+                                target: "_blank",
+                                className:
+                                  "text-3xl cursor-pointer transition-all duration-300 hover:scale-[1.15] hover:text-[#daa520] active:scale-[0.9]",
+                                children: (0, a.jsx)(w.gc, { icon: b.CQO }),
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                    ],
+                  },
+                  e
+                )
+              ),
+            }),
+          ],
+        });
+      function U() {
+        let [A, e] = (0, i.useState)(!0);
+        return (
+          (0, i.useEffect)(() => {
+            "dark" !== localStorage.theme &&
+            ("theme" in localStorage ||
+              !window.matchMedia("(prefers-color-scheme: dark)").matches)
+              ? e(!1)
+              : e(!0);
+          }, []),
+          (0, i.useEffect)(() => {
+            A
+              ? (document.documentElement.classList.add("dark"),
+                (localStorage.theme = "dark"))
+              : (document.documentElement.classList.remove("dark"),
+                (localStorage.theme = ""));
+          }, [A]),
+          (0, a.jsxs)(a.Fragment, {
+            children: [
+              (0, a.jsx)(u, { darkMode: A, setDarkMode: e }),
+              (0, a.jsx)(p, { darkMode: A }),
+              (0, a.jsx)(d, { darkMode: A }),
+              (0, a.jsx)(f, { darkMode: A }),
+              (0, a.jsx)(h, { darkMode: A }),
+              (0, a.jsx)(m, { darkMode: A }),
+            ],
+          })
+        );
+      }
+    },
+  },
+  (A) => {
+    A.O(0, [711, 266, 802, 85, 441, 255, 358], () => A((A.s = 4692))),
+      (_N_E = A.O());
+  },
+]);
