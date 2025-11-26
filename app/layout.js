@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
         {/* --- PLAUSIBLE ANALYTICS --- */}
         <Script
           async
-          src="https://plausible.io/js/pa-CQojyAxsHheFF2R0Qy6G6.js"
+          src="https://plausible.io/js/pa-C6AAFWBPUT7J4NyTJnCRT.js"
         />
 
         <Script id="plausible-init">
