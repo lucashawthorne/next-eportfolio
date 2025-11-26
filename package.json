@@ -1,12 +1,12 @@
 {
-  "homepage": "https://lucashawthorne.github.io/eportfolio",
+  "homepage": "https://lucashawthorne.github.io/Eportfolio",
   "name": "next-eportfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "predeploy": "next build && next export",
+    "predeploy": "next build",
     "deploy": "gh-pages -d out",
     "start": "next start",
     "lint": "next lint"
