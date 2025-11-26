@@ -69,8 +69,8 @@ const About = ({ darkMode }) => {
               <motion.li
               whileHover={{ scale: 1.05 }}
                 key={index}
-                className="border-[1px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover
-              hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+                className="border-[1px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-blue-300
+              hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-black"
               >
                 <Image
                   src={darkMode ? iconDark : icon}
