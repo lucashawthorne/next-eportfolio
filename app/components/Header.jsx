@@ -50,7 +50,7 @@ const Header = () => {
             transition={{ duration: 0.6, delay: 1 }}
             href="#contact"
             className="px-10 py-3 border rounded-full border-white 
-         bg-black text-white flex items-center gap-2 dark:bg-transparent"
+         bg-black text-white flex items-center gap-2"
           >
             Contact Me
             <Image src={assets.right_arrow_white} alt="" className="w-4" />
@@ -62,7 +62,7 @@ const Header = () => {
             href="/Lucas-Hawthorne's-Tech-Resume.pdf"
             target="_blank"
             className="px-10 py-3 border rounded-full border-gray-500 flex 
-          items-center gap-2 dark:text-black dark:bg-white"
+          items-center gap-2 bg-white text-black"
           >
             My Resume{" "}
             <Image src={assets.download_icon} alt="" className="w-4" />
