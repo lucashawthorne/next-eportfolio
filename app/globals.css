@@ -10,6 +10,10 @@ p {
   font-size: 18px;
 }
 
+.gold {
+  color: #daa520;
+}
+
 @layer components {
   .link__hover {
     @apply relative;
@@ -40,3 +44,20 @@ p {
   }
 
 }
+
+/* Focus Pulse Effect */
+input:focus,
+textarea:focus {
+  border-color: #daa520;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    border-color: white;
+  }
+  50% {
+    border-color: #daa520;
+  }
+}
+

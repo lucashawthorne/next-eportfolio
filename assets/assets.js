@@ -151,7 +151,7 @@ export const infoList = [
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "FES Institute Graduate",
+    description: "FES Institute Graduate 2025",
   },
   {
     icon: assets.project_icon,
