@@ -52,12 +52,16 @@ const About = ({ darkMode }) => {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="flex-1"
         >
-          <p className="mb-10 max-w-2xl">
+          <p className="mb-4 max-w-2xl">
             I'm an early-career frontend developer with a strong foundation in
             Next.js, Tailwind CSS, and TypeScript. I bring to the table fast
             learning, strong problem-solving, and a serious work ethic. I'm
             fully committed to cementing my career in tech and becoming a
             high-performing contributor on whichever team I join.
+          </p>
+          <p className="mb-8 max-w-2xl">
+            Fun facts: Magazine-published writer, MMA practitioner,
+            wannabe kitchen experimenter, expert fire extinguisher.
           </p>
           <motion.ul
             initial={{ opacity: 0 }}
@@ -67,7 +71,7 @@ const About = ({ darkMode }) => {
           >
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <motion.li
-              whileHover={{ scale: 1.05 }}
+                whileHover={{ scale: 1.05 }}
                 key={index}
                 className="border-[1px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-blue-300
               hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-black"
@@ -102,7 +106,7 @@ const About = ({ darkMode }) => {
           >
             {toolsData.map((tool, index) => (
               <motion.li
-              whileHover={{ scale: 1.1 }}
+                whileHover={{ scale: 1.1 }}
                 key={index}
                 className="flex items-center justify-center w-12 sm:w-14
               aspect-square border border-gray-400 rounded-lg cursor-pointer
