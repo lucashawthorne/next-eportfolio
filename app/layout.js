@@ -3,14 +3,16 @@ import "./globals.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css"; // import the CSS manually
 config.autoAddCss = false; // tell FontAwesome to skip adding CSS automatically
-
+import Script from "next/script";
 
 const roboto = Roboto({
-  subsets: ["latin"], weight: ["400", "500", "600", "700"]
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
 const ovo = Ovo({
-  subsets: ["latin"], weight: ["400"]
+  subsets: ["latin"],
+  weight: ["400"],
 });
 
 export const metadata = {
@@ -26,6 +28,28 @@ export default function RootLayout({ children }) {
         dark:bg-darkTheme dark:text-white`}
       >
         {children}
+
+        {/* --- PLAUSIBLE ANALYTICS --- */}
+        <Script
+          async
+          src="https://plausible.io/js/pa-CQojyAxsHheFF2R0Qy6G6.js"
+        />
+
+        <Script id="plausible-init">
+          {`
+            (window.plausible =
+              window.plausible ||
+              function () {
+                (plausible.q = plausible.q || []).push(arguments);
+              }),
+              (plausible.init =
+                plausible.init ||
+                function (i) {
+                  plausible.o = i || {};
+                });
+            plausible.init();
+          `}
+        </Script>
       </body>
     </html>
   );
