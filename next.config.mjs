@@ -4,8 +4,6 @@ import { join } from "path";
 const nextConfig = {
   output: "export",
   images: { unoptimized: true },
-  basePath: "/eportfolio",
-  distDir: "out",
 };
 
 export default nextConfig;
