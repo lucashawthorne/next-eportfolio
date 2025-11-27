@@ -61,7 +61,7 @@ const About = ({ darkMode }) => {
           </p>
           <p className="mb-8 max-w-2xl">
             Fun facts: Magazine-published writer, MMA practitioner,
-            wannabe kitchen experimenter, expert fire extinguisher, positive digital footprint (yes, I do appear on Google).
+            wannabe kitchen experimenter, expert fire extinguisher, positive digital footprint.
           </p>
           <motion.ul
             initial={{ opacity: 0 }}
