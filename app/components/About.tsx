@@ -1,9 +1,13 @@
 import { assets, infoList, toolsData } from "@/assets/assets";
-import Image from "next/image";
-import React from "react";
+import Image, { StaticImageData } from "next/image";
+import React, { FC } from "react";
 import { motion } from "motion/react";
 
-const About = ({ darkMode }) => {
+interface AboutProps {
+  darkMode: boolean;
+}
+
+const About: FC<AboutProps> = ({ darkMode }) => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
