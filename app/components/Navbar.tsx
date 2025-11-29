@@ -1,18 +1,27 @@
 import { assets } from "@/assets/assets";
 import Image from "next/image";
-import React, { useEffect, useRef, useState } from "react";
+import React, { FC, useEffect, useRef, useState } from "react";
 
-const Navbar = ({darkMode, setDarkMode}) => {
+interface NavbarProps {
+  darkMode: boolean;
+  setDarkMode: (value: boolean | ((prev: boolean) => boolean)) => void;
+}
+
+const Navbar: FC<NavbarProps> = ({darkMode, setDarkMode}) => {
 
   const [isScroll, setIsScroll] = useState(false)
 
-  const sideMenuRef = useRef();
+  const sideMenuRef = useRef<HTMLUListElement>(null);
 
   const openMenu = () => {
-    sideMenuRef.current.style.transform = 'translateX(-16rem)'
+    if (sideMenuRef.current) {
+      sideMenuRef.current.style.transform = 'translateX(-16rem)';
+    }
   }
   const closeMenu = () => {
-    sideMenuRef.current.style.transform = 'translateX(16rem)'
+    if (sideMenuRef.current) {
+      sideMenuRef.current.style.transform = 'translateX(16rem)';
+    }
   }
 
   useEffect(() => {
@@ -20,7 +29,7 @@ const Navbar = ({darkMode, setDarkMode}) => {
       if (scrollY > 50) {
         setIsScroll(true)
       } else {
-        setIsScroll(false)
+        setIsScroll(false);
       }
     })
   }, [])

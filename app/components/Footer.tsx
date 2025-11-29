@@ -1,8 +1,13 @@
 import { assets } from "@/assets/assets";
 import Image from "next/image";
+import { FC } from "react";
 import { FaArrowUp } from "react-icons/fa";
 
-const Footer = ({ darkMode }) => {
+interface FooterProps {
+  darkMode: boolean;
+}
+
+const Footer: FC<FooterProps> = ({ darkMode }) => {
   return (
     <div className="mt-20">
       <div className="text-center">

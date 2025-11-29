@@ -1,12 +1,16 @@
 import { assets, projects } from "@/assets/assets";
 import Image from "next/image";
-import React from "react";
+import React, { FC } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "motion/react";
 
-const Work = (darkMode) => {
+interface WorkProps {
+  darkMode: boolean;
+}
+
+const Work: FC<WorkProps> = ( darkMode ) => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
