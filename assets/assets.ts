@@ -31,12 +31,23 @@ import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
 import { StaticImageData } from "next/image";
 
+export interface Project {
+  title: string;
+  subtitle: string;
+  description: string;
+  image: string;
+  github: string;
+  demo: string;
+}
+
 export interface InfoItem {
   icon: StaticImageData;
   iconDark: StaticImageData;
   title: string;
   description: string;
-};
+}
+
+export type Tool = StaticImageData;
 
 export const assets = {
   About_Picture,
@@ -72,7 +83,7 @@ export const assets = {
   right_arrow_bold_dark,
 };
 
-export const projects = [
+export const projects: Project[] = [
   {
     title: "Skinstric AI - Virtual Internship",
     subtitle: "React, JavaScript, HTML, CSS",
@@ -132,7 +143,7 @@ export const infoList: InfoItem[] = [
   },
 ];
 
-export const toolsData = [
+export const toolsData: Tool[] = [
   assets.vscode,
   assets.firebase,
   assets.figma,

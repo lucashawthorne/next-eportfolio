@@ -4,6 +4,8 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css"; // import the CSS manually
 config.autoAddCss = false; // tell FontAwesome to skip adding CSS automatically
 import Script from "next/script";
+import { Metadata } from "next";
+import React from "react";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -15,12 +17,12 @@ const ovo = Ovo({
   weight: ["400"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Lucas Hawthorne's Portfolio",
   description: "Have a look at what I made",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="scroll-smooth dark">
       <body
