@@ -1,14 +1,18 @@
 import { assets } from "@/assets/assets";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { FC, FormEvent, useState } from "react";
 
-const Contact = ({darkMode}) => {
+interface ContactProps {
+  darkMode: boolean;
+}
+
+const Contact: FC<ContactProps> = ({ darkMode }) => {
   const [result, setResult] = useState("");
 
-  const onSubmit = async (event) => {
+  const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setResult("Sending....");
-    const formData = new FormData(event.target);
+    const formData = new FormData(event.currentTarget);
 
     formData.append("access_key", "818a2b36-6f59-4aad-be89-6c7a3341e206");
 
@@ -21,7 +25,7 @@ const Contact = ({darkMode}) => {
 
     if (data.success) {
       setResult("Thanks! I'll be in touch soon 🚀");
-      event.target.reset();
+      event.currentTarget.reset();
     } else {
       console.log("Error", data);
       setResult(data.message);
@@ -53,7 +57,7 @@ const Contact = ({darkMode}) => {
           />
         </div>
         <textarea
-          rows="6"
+          rows={6}
           placeholder="Enter your message"
           required
           className="w-full p-4 outline-none border-[1px] border-gray-400 rounded-md bg-white mb-6 dark:bg-darkHover/30 dark:border-white/90"
