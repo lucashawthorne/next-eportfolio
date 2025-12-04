@@ -64,8 +64,16 @@ const About: FC<AboutProps> = ({ darkMode }) => {
             high-performing contributor on whichever team I join.
           </p>
           <p className="mb-8 max-w-2xl">
-            Fun facts: Magazine-published writer, MMA practitioner,
-            wannabe kitchen experimenter, expert fire extinguisher, positive digital footprint.
+            Fun facts: Magazine-published writer, MMA practitioner, wannabe
+            kitchen experimenter, expert fire extinguisher,{" "}
+            <a
+              href="https://www.lucashawthorne.com/"
+              className="gold underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              positive digital footprint.
+            </a>
           </p>
           <motion.ul
             initial={{ opacity: 0 }}
