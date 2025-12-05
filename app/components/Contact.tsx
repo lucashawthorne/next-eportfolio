@@ -37,7 +37,7 @@ const Contact: FC<ContactProps> = ({ darkMode }) => {
       <h4 className="text-center mb-2 text-lg gold">Connect With Me</h4>
       <h2 className="text-center text-5xl">Get In Touch</h2>
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12">
-        Let's have a chat! I'm currently open to new opportunities.
+        Let&apos;s have a chat! I&apos;m currently open to new opportunities.
       </p>
       <form onSubmit={onSubmit} className="max-w-2xl mx-auto">
         <div className="grid grid-cols-auto gap-6 mt-10 mb-8">

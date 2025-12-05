@@ -23,7 +23,7 @@ const Header = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="flex items-end gap-2 text-xl md:text-2xl mb-3"
         >
-          Hey there, I'm Lucas
+          Hey there, I&apos;m Lucas
           <Image src={assets.hand_icon} alt="" className="w-6" />
         </motion.h3>
         <motion.h1
@@ -40,7 +40,7 @@ const Header = () => {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="max-w-[28rem] mx-auto"
         >
-          I'm a frontend software engineer with a strong passion for building
+          I&apos;m a frontend software engineer with a strong passion for building
           stellar web applications that leave viewers amazed.
         </motion.p>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">

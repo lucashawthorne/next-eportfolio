@@ -57,9 +57,9 @@ const About: FC<AboutProps> = ({ darkMode }) => {
           className="flex-1"
         >
           <p className="mb-4 max-w-2xl">
-            I'm an early-career frontend developer with a strong foundation in
+            I&apos;m an early-career frontend developer with a strong foundation in
             Next.js, Tailwind CSS, and TypeScript. I bring to the table fast
-            learning, strong problem-solving, and a serious work ethic. I'm
+            learning, strong problem-solving, and a serious work ethic. I&apos;m
             fully committed to cementing my career in tech and becoming a
             high-performing contributor on whichever team I join.
           </p>
