@@ -64,7 +64,7 @@ const About: FC<AboutProps> = ({ darkMode }) => {
             high-performing contributor on whichever team I join.
           </p>
           <p className="mb-8 max-w-2xl">
-            Fun facts: Magazine-published writer, MMA practitioner, wannabe
+            <span className="underline font-bold">Fun facts</span>: Magazine-published writer, MMA practitioner, wannabe
             kitchen experimenter, expert fire extinguisher,{" "}
             <a
               href="https://www.lucashawthorne.com/"
