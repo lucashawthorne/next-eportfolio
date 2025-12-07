@@ -46,7 +46,7 @@ const Footer: FC<FooterProps> = ({ darkMode }) => {
             </a>
           </li>
           <li className="link__hover">
-            <a href="/Lucas-Hawthorne-Resume.pdf/" target="_blank">
+            <a href="/Lucas Hawthorne Resume.pdf/" target="_blank">
               Resume
             </a>
           </li>

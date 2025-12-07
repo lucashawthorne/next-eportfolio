@@ -57,15 +57,18 @@ const About: FC<AboutProps> = ({ darkMode }) => {
           className="flex-1"
         >
           <p className="mb-4 max-w-2xl">
-            I&apos;m an early-career frontend developer with a strong foundation in
-            Next.js, Tailwind CSS, and TypeScript. I bring to the table fast
-            learning, strong problem-solving, and a serious work ethic. I&apos;m
-            fully committed to cementing my career in tech and becoming a
-            high-performing contributor on whichever team I join.
+            I&apos;m a hybrid communicator with a foundation in frontend development,
+            strong writing ability, and a talent for translating complex ideas
+            into clear, human-centered solutions. I thrive in client-facing and
+            cross-functional spaces where technical fluency, communication, and
+            problem-solving all intersect. My goal is to bridge gaps between
+            people and products while contributing meaningfully to a team&apos;s
+            success.
           </p>
           <p className="mb-8 max-w-2xl">
-            <span className="underline font-bold">Fun facts</span>: Magazine-published writer, MMA practitioner, wannabe
-            kitchen experimenter, expert fire extinguisher,{" "}
+            <span className="underline font-bold">Fun facts</span>:
+            Magazine-published writer, MMA practitioner, wannabe kitchen
+            experimenter, expert fire extinguisher,{" "}
             <a
               href="https://www.lucashawthorne.com/"
               className="gold underline"
