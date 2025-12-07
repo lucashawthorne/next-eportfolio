@@ -139,7 +139,7 @@ export const infoList: InfoItem[] = [
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Projects",
-    description: "Built more than 10 projects",
+    description: "Built more than 10 projects, wrote more than 100 articles",
   },
 ];
 

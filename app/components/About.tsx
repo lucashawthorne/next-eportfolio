@@ -57,9 +57,18 @@ const About: FC<AboutProps> = ({ darkMode }) => {
           className="flex-1"
         >
           <p className="mb-4 max-w-2xl">
-            I&apos;m a hybrid communicator with a foundation in frontend development,
-            strong writing ability, and a talent for translating complex ideas
-            into clear, human-centered solutions. I thrive in client-facing and
+            I&apos;m a hybrid communicator with a foundation in frontend
+            development,{" "}
+            <a
+              href="https://www.lucashawthorne.com/"
+              className="gold underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              strong writing ability,
+            </a>{" "}
+            and a talent for translating complex ideas into clear,
+            human-centered solutions. I thrive in client-facing and
             cross-functional spaces where technical fluency, communication, and
             problem-solving all intersect. My goal is to bridge gaps between
             people and products while contributing meaningfully to a team&apos;s
@@ -68,15 +77,7 @@ const About: FC<AboutProps> = ({ darkMode }) => {
           <p className="mb-8 max-w-2xl">
             <span className="underline font-bold">Fun facts</span>:
             Magazine-published writer, MMA practitioner, wannabe kitchen
-            experimenter, expert fire extinguisher,{" "}
-            <a
-              href="https://www.lucashawthorne.com/"
-              className="gold underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              positive digital footprint.
-            </a>
+            experimenter, expert fire extinguisher, positive digital footprint.
           </p>
           <motion.ul
             initial={{ opacity: 0 }}
