@@ -634,7 +634,7 @@
                       (0, a.jsx)("li", {
                         className: "link__hover",
                         children: (0, a.jsx)("a", {
-                          href: "/Lucas-Hawthorne's-Tech-Resume.pdf/",
+                          href: "/Lucas-Hawthorne-Resume.pdf/",
                           target: "_blank",
                           children: "Resume",
                         }),
@@ -716,7 +716,7 @@
                       initial: { y: 30, opacity: 0 },
                       whileInView: { y: 0, opacity: 1 },
                       transition: { duration: 0.6, delay: 1 },
-                      href: "/Lucas-Hawthorne's-Tech-Resume.pdf",
+                      href: "/Lucas-Hawthorne-Resume.pdf",
                       target: "_blank",
                       className:
                         "px-10 py-3 border rounded-full border-gray-500 flex  items-center gap-2 dark:text-black dark:bg-white",
