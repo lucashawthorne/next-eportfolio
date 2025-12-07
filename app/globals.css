@@ -59,7 +59,7 @@ textarea:focus {
 
 @keyframes pulse {
   0%, 100% {
-    border-color: white;
+    border-color: inherit;
   }
   50% {
     border-color: #daa520;
