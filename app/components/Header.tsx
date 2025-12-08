@@ -32,7 +32,7 @@ const Header = () => {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="text-3xl sm:text-5xl lg:text-[60px] max-w-[44rem]"
         >
-          Hybrid Tech Communicator & Client Experience Specialist
+          Hybrid Tech &<br />Content Specialist
         </motion.h1>
         <motion.p
           initial={{ y: 20, opacity: 0 }}
