@@ -63,6 +63,9 @@ const Navbar: FC<NavbarProps> = ({darkMode, setDarkMode}) => {
             <a href="#work">My Work</a>
           </li>
           <li className="link__hover">
+            <a href="https://www.lucashawthorne.com/" target="_blank">My Writing</a>
+          </li>
+          <li className="link__hover">
             <a href="#contact">Contact Me</a>
           </li>
         </ul>
@@ -101,6 +104,9 @@ const Navbar: FC<NavbarProps> = ({darkMode, setDarkMode}) => {
           </li>
           <li>
             <a onClick={closeMenu} href="#work">My Work</a>
+          </li>
+          <li>
+            <a onClick={closeMenu} href="https://www.lucashawthorne.com/" target="_blank">My Writing</a>
           </li>
           <li>
             <a onClick={closeMenu} href="#contact">Contact Me</a>
