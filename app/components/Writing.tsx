@@ -96,7 +96,7 @@ const Writing: FC<WritingProps> = ( darkMode ) => {
               <h4 className="text-xl mt-2 italic">{article.subtitle}</h4>
 
               {/* Mobile (<768px) — visible always */}
-              <p className="text-lg mt-4 md:hidden">{article.description}</p>
+              <p className="text-lg mt-4 hidden">{article.description}</p>
 
               {/* Tablet (768–1023px) — HIDDEN */}
               <p className="text-lg mt-4 hidden md:block lg:hidden"></p>
