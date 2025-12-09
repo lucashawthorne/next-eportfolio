@@ -169,7 +169,7 @@ export const infoList: InfoItem[] = [
   {
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
-    title: "Languages",
+    title: "Coding Languages",
     description: "Next.js, Tailwind CSS, TypeScript, JavaScript, HTML, CSS",
   },
   {
