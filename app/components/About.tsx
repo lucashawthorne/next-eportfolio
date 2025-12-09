@@ -71,7 +71,7 @@ const About: FC<AboutProps> = ({ darkMode }) => {
             human-centered solutions. I thrive in client-facing and
             cross-functional spaces where technical fluency, communication, and
             problem-solving all intersect. My goal is to bridge gaps between
-            people and products while contributing meaningfully to a team&apos;s
+            people, products, and ideas while contributing meaningfully to a team&apos;s
             success.
           </p>
           <p className="mb-8 max-w-2xl">
@@ -112,7 +112,7 @@ const About: FC<AboutProps> = ({ darkMode }) => {
             transition={{ duration: 1.3, delay: 0.5 }}
             className="my-6 text-gray-700 font-light text-xl dark:text-white/80"
           >
-            Tools I Use:
+            Frontend Tools I Use:
           </motion.h4>
           <motion.ul
             initial={{ opacity: 0 }}
