@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Work from "./components/Work";
+import Writing from "./components/Writing"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -36,6 +37,7 @@ export default function Home() {
       <Header />
       <About darkMode={darkMode} />
       {/* <Services darkMode={darkMode} /> */}
+      <Writing darkMode={darkMode} />
       <Work darkMode={darkMode} />
       <Contact darkMode={darkMode} />
       <Footer darkMode={darkMode} />

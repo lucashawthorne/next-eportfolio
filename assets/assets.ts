@@ -40,6 +40,14 @@ export interface Project {
   demo: string;
 }
 
+export interface Article {
+  title: string;
+  subtitle: string;
+  description: string;
+  image: string;
+  demo: string;
+}
+
 export interface InfoItem {
   icon: StaticImageData;
   iconDark: StaticImageData;
@@ -82,6 +90,41 @@ export const assets = {
   right_arrow_bold,
   right_arrow_bold_dark,
 };
+
+export const articles: Article[] = [
+  {
+    title: "The Paradox of Getting What You Want: The Misunderstood Way to Acquire What You Desire",
+    subtitle: "The path to getting what you want isn't always a straight line.",
+    description:
+      "One of my most recent articles, it talks about an often-misunderstood way to successfully achieve desired outcomes.",
+    image: "/writing-1.png",
+    demo: "https://www.lucashawthorne.com/the-paradox-of-getting-what-you-want/",
+  },
+  {
+    title: "Are You Succeeding or Failing in Life? Here's How to Find Out",
+    subtitle: "Sometimes, it's not about scoring a goal. Sometimes, it's about moving the goalposts.",
+    description:
+      "My last article from 2024 offers a different perspective on what it means to be successful.",
+    image: "/writing-2.png",
+    demo: "https://www.lucashawthorne.com/are-you-succeeding-or-failing-in-life/",
+  },
+  {
+    title: "I Turn 25 Years Old Tomorrow – Here Are 25 Life Lessons I've Learned",
+    subtitle: "My top 25 tips especially for those under 25.",
+    description:
+      "My lengthiest article to date. In it, I've written 25 life lessons, one for each time around the Sun.",
+    image: "/writing-3.png",
+    demo: "https://www.lucashawthorne.com/i-turn-25-years-old-tomorrow-here-are-25-life-lessons-ive-learned/",
+  },
+  {
+    title: "I’ve Been Rejected by 100 Girls. Here Are 5 Lessons I’ve Learned",
+    subtitle: "You should be able to stare rejection in the face and laugh after reading this.",
+    description:
+      "In my most visited article from Google searches, I talk about my top tips for overcoming rejection in dating.",
+    image: "/writing-4.png",
+    demo: "https://www.lucashawthorne.com/ive-been-rejected-by-100-girls-here-are-5-lessons-ive-learned/",
+  },
+];
 
 export const projects: Project[] = [
   {
