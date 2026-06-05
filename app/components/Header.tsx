@@ -32,7 +32,8 @@ const Header = () => {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="text-3xl sm:text-5xl lg:text-[60px] max-w-[44rem]"
         >
-          Hybrid Tech &<br />Content Specialist
+          Content &<br />
+          Communications Specialist
         </motion.h1>
         <motion.p
           initial={{ y: 20, opacity: 0 }}
@@ -40,9 +41,8 @@ const Header = () => {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="max-w-[32rem] mx-auto"
         >
-          I bridge the gap between people and products – blending frontend
-          expertise, clear communication, and content design to create
-          intuitive, human-centered digital experiences.
+          I create clear, audience-focused content backed by strong writing, SEO
+          experience, client-facing communication, and digital fluency.
         </motion.p>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
           <motion.a
