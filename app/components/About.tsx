@@ -57,8 +57,7 @@ const About: FC<AboutProps> = ({ darkMode }) => {
           className="flex-1"
         >
           <p className="mb-4 max-w-2xl">
-            I&apos;m a hybrid communicator with a foundation in frontend
-            development,{" "}
+            I&apos;m a content and communications-focused professional with{" "}
             <a
               href="https://www.lucashawthorne.com/"
               className="gold underline"
@@ -67,12 +66,13 @@ const About: FC<AboutProps> = ({ darkMode }) => {
             >
               strong writing ability,
             </a>{" "}
-            and a talent for translating complex ideas into clear,
-            human-centered solutions. I thrive in client-facing and
-            cross-functional spaces where technical fluency, communication, and
-            problem-solving all intersect. My goal is to bridge gaps between
-            people, products, and ideas while contributing meaningfully to a team&apos;s
-            success.
+             client-facing experience, and digital fluency from
+            frontend development training. I've authored 80+ long-form articles,
+            built an organic readership across 100+ countries, and developed a
+            strong foundation in SEO, storytelling, and audience-aware
+            communication. I'm currently seeking opportunities where I
+            can combine writing, communication, and digital skills to create
+            clear, useful, human-centered content.
           </p>
           <p className="mb-8 max-w-2xl">
             <span className="underline font-bold">Fun facts</span>:
@@ -112,7 +112,7 @@ const About: FC<AboutProps> = ({ darkMode }) => {
             transition={{ duration: 1.3, delay: 0.5 }}
             className="my-6 text-gray-700 font-light text-xl dark:text-white/80"
           >
-            Frontend Tools I Use:
+            Frontend Tools I've Used:
           </motion.h4>
           <motion.ul
             initial={{ opacity: 0 }}
