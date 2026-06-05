@@ -67,10 +67,10 @@ const About: FC<AboutProps> = ({ darkMode }) => {
               strong writing ability,
             </a>{" "}
              client-facing experience, and digital fluency from
-            frontend development training. I've authored 80+ long-form articles,
+            frontend development training. I have authored 80+ long-form articles,
             built an organic readership across 100+ countries, and developed a
             strong foundation in SEO, storytelling, and audience-aware
-            communication. I'm currently seeking opportunities where I
+            communication. I am currently seeking opportunities where I
             can combine writing, communication, and digital skills to create
             clear, useful, human-centered content.
           </p>
@@ -112,7 +112,7 @@ const About: FC<AboutProps> = ({ darkMode }) => {
             transition={{ duration: 1.3, delay: 0.5 }}
             className="my-6 text-gray-700 font-light text-xl dark:text-white/80"
           >
-            Frontend Tools I've Used:
+            Frontend Tools I Have Used:
           </motion.h4>
           <motion.ul
             initial={{ opacity: 0 }}
